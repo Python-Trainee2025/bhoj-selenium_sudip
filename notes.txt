@@ -1,0 +1,1 @@
+add a pytest.ini for logs config and reports config. use logging.info instead of print for the report and the console logs as well for each step
