@@ -1,4 +1,5 @@
 import logging
+import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -8,11 +9,9 @@ logger = logging.getLogger(__name__)
 
 class BaseTest:
 
-    def setup_method(self):
-        """Initialize Chrome driver with best recommended settings."""
-
+    @pytest.fixture(autouse=True)
+    def setup_and_teardown(self, request):
         chrome_options = Options()
-
         chrome_options.add_argument("--start-maximized")
         chrome_options.add_argument("--disable-notifications")
         chrome_options.add_argument("--disable-popup-blocking")
@@ -29,18 +28,28 @@ class BaseTest:
         }
         chrome_options.add_experimental_option("prefs", prefs)
 
+
         self.driver = webdriver.Chrome(options=chrome_options)
         logger.info("Chrome launched successfully.")
+        #  FOR PYTEST-HTML SCREENSHOTS
+        request.node._driver = self.driver
 
-        # If no JSON, store credentials directly here or inside test
-        self.email = "chelseasudip430@gmail.com"
-        self.password = "Protectmy@ccount11"
+        # Credentials
+        self.cred = {
+            "base_url": "https://www.bhojdeals.com/",
+            "email": "chelseasudip430@gmail.com",
+            "password": "Protectmy@ccount11"
+        }
 
-    def teardown_method(self):
-        """Close browser after each test."""
+        self.email = self.cred["email"]
+        self.password = self.cred["password"]
+
+        yield
+
+        logger.info("Closing Chrome browser.")
         self.driver.quit()
 
+    # Optional utility
     def open_url(self, url):
-        """Navigate to URL."""
         logger.info(f"Opening URL: {url}")
         self.driver.get(url)

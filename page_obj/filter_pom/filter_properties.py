@@ -1,27 +1,32 @@
+# page_obj/filter/filter_properties.py
 from page_obj.filter_pom.filter_locators import FilterLocators
 
 class FilterProperties:
 
     @property
-    def first_button(self):
-        return self.driver.find_element(*FilterLocators.FIRST_BUTTON)
+    def todays_deal_btn(self):
+        return self.driver.find_element(*FilterLocators.TODAY_DEAL)
 
     @property
-    def popup_select(self):
-        return self.driver.find_element(*FilterLocators.POPUP_SELECT)
+    def category_btn(self):
+        return self.driver.find_element(*FilterLocators.BROWSE_CATEGORY)
 
     @property
-    def sort_dropdown(self):
-        return self.driver.find_element(*FilterLocators.SORT_DROPDOWN)
+    def cuisine_btn(self):
+        return self.driver.find_element(*FilterLocators.BROWSE_CUISINE)
 
     @property
-    def sort_option3(self):
-        return self.driver.find_element(*FilterLocators.SORT_OPTION_3)
+    def popularity_sort(self):
+        return self.driver.find_element(*FilterLocators.SORT_POPULARITY)
 
     @property
-    def filter_dropdown(self):
-        return self.driver.find_element(*FilterLocators.FILTER_DROPDOWN)
+    def price_sort(self):
+        return self.driver.find_element(*FilterLocators.SORT_PRICE)
 
     @property
-    def filter_option3(self):
-        return self.driver.find_element(*FilterLocators.FILTER_OPTION_3)
+    def all_restaurants_btn(self):
+        return self.driver.find_element(*FilterLocators.ALL_RESTAURANT)
+
+    @property
+    def reset_button(self):
+        return self.driver.find_element(*FilterLocators.RESET)

@@ -1,6 +1,6 @@
 import time
 from setup.base_test import BaseTest
-from page_obj.login_pom.login_page import LoginPage
+from page_obj.login.login_page import LoginPage
 
 
 class TestLogin(BaseTest):
