@@ -1,18 +1,28 @@
-from selenium.webdriver.common.by import By
+import logging
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from page_obj.get_location.getlocation_properties import GetLocationProperties
 
-from selenium.webdriver.support import expected_conditions as EC
+
 class GetLocationPage(GetLocationProperties):
 
-    def __init__(self,driver):
-        self.driver=driver
-        self.wait=WebDriverWait(self.driver,10)
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(self.driver, 10)
+        logging.info("GetLocationPage initialized")
 
     def get_location_page(self):
-        get_location_page=self.wait.until(EC.presence_of_element_located(self.GETLOCATION))
+        logging.info("Waiting for 'Get Food & Grocery delivered' section")
+        get_location_page = self.wait.until(
+            EC.presence_of_element_located(self.GETLOCATION)
+        )
+
+        logging.info("Clicking main Get Location button")
         get_location_page.click()
 
-        choose_location=self.chooselocation
+        logging.info("Selecting specific location (Bhaktapur)")
+        choose_location = self.chooselocation
         choose_location.click()
+
+        logging.info("Location successfully selected")

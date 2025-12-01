@@ -1,9 +1,9 @@
+import logging
 from selenium.webdriver.common.by import By
 
 
 class ViewMenuLocators(object):
-    RESTAURANT=(By.XPATH,"//a/div[contains(@class,'restaurant-type')]")
+    logging.info("ViewMenuLocators loaded")
 
-    MENU_CATEGORY=(By.XPATH,'//div[contains(@class,"category-tab")]//li//a[text()="Chicken Burger"]')
-
-
+    RESTAURANT = (By.XPATH, "//a/div[contains(@class,'restaurant-type')]")
+    MENU_CATEGORY = (By.XPATH, '//div[contains(@class,"category-tab")]//li//a[text()="Chicken Burger"]')

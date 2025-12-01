@@ -8,19 +8,28 @@ from setup.base_test import BaseTest
 
 class TestGetLocation(BaseTest):
     def test_get_location(self):
-        url = self.cred["base_url"]
-        self.driver.get(url)
-        logging.info("driver initialized")
+        logging.info("Starting Get Location Test")
 
+        url = self.cred["base_url"]
+        logging.info(f"Opening URL: {url}")
+        self.driver.get(url)
+
+        logging.info("Initializing LoginPage")
         loginpage = LoginPage(self.driver)
+
         email = self.cred["email"]
-        logging.info("Email entered")
+        logging.info(f"Email entered: {email}")
 
         pwd = self.cred["password"]
         logging.info("Password entered")
         loginpage.login(email, pwd)
         time.sleep(3)
 
-        getlocation_p=GetLocationPage(self.driver)
+        logging.info("Initializing GetLocationPage")
+        getlocation_p = GetLocationPage(self.driver)
+
+        logging.info("Selecting location")
         getlocation_p.get_location_page()
         time.sleep(3)
+
+        logging.info("Get Location Test Completed")

@@ -16,25 +16,33 @@ class SearchPage(SearchProperties):
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 20)
-
+        logging.info("SearchPage initialized")
 
     def search_item(self, food, expected=None):
+        logging.info(f"Starting search for: {food}")
 
-        # 1: Wait until search box is clickable (using locator)
+        # Wait for search box
+        logging.info("Waiting for SEARCH_BOX to be clickable")
         self.wait.until(EC.element_to_be_clickable(SearchLocators.SEARCH_BOX))
 
-        # 2: Now interact through WebElement property
+        # Interact using property
         searchbox = self.search_input
+        logging.info("Clearing search box")
         searchbox.clear()
+
+        logging.info(f"Typing search query: {food}")
         searchbox.send_keys(food)
 
-        # Wait for suggestions to appear
+        # Wait for suggestions
+        logging.info("Waiting for search suggestions to appear")
         self.wait.until(
             EC.visibility_of_element_located((By.XPATH, "//div[@class='main-auto-suggestion']"))
         )
 
-        # If expected value is provided → click matching suggestion
+        # If expected item is provided
         if expected:
+            logging.info(f"Looking for expected suggestion: {expected}")
+
             expected_locator = (
                 By.XPATH,
                 f"//span[contains(translate(normalize-space(), "
@@ -45,12 +53,11 @@ class SearchPage(SearchProperties):
             item = self.wait.until(EC.element_to_be_clickable(expected_locator))
             item.click()
             logging.info(f"Clicked expected result: {expected}")
-
         else:
-            # Else → click first suggestion
+            logging.info("No expected value provided. Clicking first suggestion.")
             first_item = self.wait.until(
                 EC.element_to_be_clickable((By.XPATH, "(//div[@class='main-auto-suggestion']//span)[1]"))
             )
             first_item.click()
 
-
+        logging.info("Search operation completed successfully")

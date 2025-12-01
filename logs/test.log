@@ -1,0 +1,41 @@
+2025-12-01 17:46:39 INFO LoginSecurityLocators loaded
+2025-12-01 17:46:39 INFO Loading SQL injection payloads
+2025-12-01 17:46:39 INFO Loading brute-force password list
+2025-12-01 17:46:39 INFO Setting MAX brute force attempts
+2025-12-01 17:46:41 INFO Chrome launched successfully.
+2025-12-01 17:46:41 INFO  Starting SQL Injection Security Test
+2025-12-01 17:46:45 INFO LoginSecurityPage initialized
+2025-12-01 17:46:45 INFO ========= Starting SQL Injection Test =========
+2025-12-01 17:46:45 INFO Testing SQL payload: ' OR '1'='1
+2025-12-01 17:46:45 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR '1'='1
+2025-12-01 17:46:45 INFO LoginPage initialized
+2025-12-01 17:46:45 INFO Starting login process
+2025-12-01 17:46:47 INFO Trying to click navbar login button
+2025-12-01 17:46:47 WARNING Navbar login button not clickable or already on login page: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6dbeea235
+	0x7ff6dbc42630
+	0x7ff6db9d16dd
+	0x7ff6db9a8e31
+	0x7ff6dba5a22e
+	0x7ff6dba7b3d2
+	0x7ff6dba1b0ed
+	0x7ff6dba1bf63
+	0x7ff6dbf15d60
+	0x7ff6dbf0fe8a
+	0x7ff6dbf31005
+	0x7ff6dbc5d71e
+	0x7ff6dbc64e1f
+	0x7ff6dbc4b7c4
+	0x7ff6dbc4b97f
+	0x7ff6dbc318e8
+	0x7ff95f67e8d7
+	0x7ff96122c53c
+
+2025-12-01 17:46:47 INFO Clearing email field
+2025-12-01 17:46:47 WARNING Email field not clearable
+2025-12-01 17:46:47 INFO Entering email: chelseasudip430@gmail.com
+2025-12-01 17:46:47 INFO Closing Chrome browser.

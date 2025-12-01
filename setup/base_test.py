@@ -3,7 +3,13 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
+# ----------------------------------------
+# Updated Logging Configuration (Your Request)
+# ----------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] - %(message)s'
+)
 logger = logging.getLogger(__name__)
 
 
@@ -28,10 +34,11 @@ class BaseTest:
         }
         chrome_options.add_experimental_option("prefs", prefs)
 
-
+        # Launch Chrome
         self.driver = webdriver.Chrome(options=chrome_options)
         logger.info("Chrome launched successfully.")
-        #  FOR PYTEST-HTML SCREENSHOTS
+
+        # FOR PYTEST-HTML SCREENSHOTS
         request.node._driver = self.driver
 
         # Credentials

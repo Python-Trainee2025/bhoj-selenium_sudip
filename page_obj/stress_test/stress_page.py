@@ -1,5 +1,7 @@
 import time
 import random
+import logging
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -15,34 +17,41 @@ class StressPage:
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
         self.search_ready = False
+        logging.info("StressPage initialized")
 
+    # ----------------------------------------------------
+    # PREPARE SEARCH BOX (Only once)
+    # ----------------------------------------------------
     def _prepare_search_box(self):
-        """
-        Prepares search bar ONCE, just like in previous tests.
-        Uses GetLocationPage.get_location_page() as in your project.
-        """
+        logging.info("Preparing search box...")
+
         if self.search_ready:
+            logging.info("Search box already prepared — skipping.")
             return True
 
         try:
+            logging.info("Selecting location via GetLocationPage")
             gl = GetLocationPage(self.driver)
-            gl.get_location_page()   # SAME METHOD YOU ALREADY USE
+            gl.get_location_page()
 
-            # wait for search box
-            self.wait.until(
-                EC.visibility_of_element_located(StressLocators.SEARCH_BOX)
-            )
-
+            self.wait.until(EC.visibility_of_element_located(StressLocators.SEARCH_BOX))
             self.search_ready = True
+            logging.info("Search box ready")
+
             return True
 
         except Exception as e:
-            print(f"❌ Search preparation failed: {e}")
+            logging.error(f" Search preparation failed: {e}")
             return False
 
+
+    # PERFORM ONE SEARCH
+
     def _perform_search(self, keyword):
-        """Performs one search and measures response time."""
+        logging.info(f"Performing search with keyword: {keyword}")
+
         if not self._prepare_search_box():
+            logging.error("Search box preparation failed")
             return False
 
         try:
@@ -54,55 +63,60 @@ class StressPage:
             search.send_keys(keyword)
 
             start = time.time()
-
             self.wait.until(
                 EC.visibility_of_element_located(StressLocators.SEARCH_RESULTS)
             )
-
             response_time = time.time() - start
 
+            logging.info(f"Search response time: {response_time:.2f}s")
+
             if response_time > StressProperties.MAX_RESPONSE_TIME:
-                print(f"⚠ Slow response: {response_time:.2f}s")
+                logging.warning(f"Slow response detected: {response_time:.2f}s")
 
             return True
 
         except TimeoutException:
-            print("❌ Search failed — no results found")
+            logging.error(" Search failed — no results found")
             return False
 
+
+    # REPEATED SEARCH STRESS TEST
+
     def repeated_search_stress(self):
-        """Fast repeated searching."""
-        print("=== Running Repeated Search Stress Test ===")
+        logging.info("=== Running Repeated Search Stress Test ===")
 
         for i in range(StressProperties.TOTAL_REQUESTS):
             keyword = random.choice(StressProperties.RANDOM_KEYWORDS)
-            print(f"Request #{i+1} — Searching: {keyword}")
+            logging.info(f"[Request #{i+1}] Searching for: {keyword}")
 
             if not self._perform_search(keyword):
-                print("❌ Page unstable during stress test")
+                logging.error("Page unstable during repeated stress test")
                 return False
 
-            time.sleep(random.uniform(
-                StressProperties.MIN_DELAY,
-                StressProperties.MAX_DELAY
-            ))
+            delay = random.uniform(StressProperties.MIN_DELAY, StressProperties.MAX_DELAY)
+            logging.info(f"Sleeping for {delay:.2f}s before next request")
+            time.sleep(delay)
 
-        print("✔ Stress test completed successfully")
+        logging.info(" Repeated Search Stress Test completed successfully")
         return True
 
+
+    # HIGH LOAD USER SIMULATION
+
     def high_load_user_simulation(self):
-        """Simulates natural heavy user activity."""
-        print("=== Running High Load User Simulation ===")
+        logging.info("=== Running High Load User Simulation ===")
 
         for i in range(30):
             keyword = random.choice(StressProperties.RANDOM_KEYWORDS)
-            print(f"[User] Searching: {keyword}")
+            logging.info(f"[User Simulation #{i+1}] Searching for: {keyword}")
 
             if not self._perform_search(keyword):
-                print("❌ High-load search failed")
+                logging.error(" High-load search failed")
                 return False
 
-            time.sleep(random.uniform(0.5, 1.5))
+            delay = random.uniform(0.5, 1.5)
+            logging.info(f"Simulating user wait time: {delay:.2f}s")
+            time.sleep(delay)
 
-        print("✔ High-load simulation successful")
+        logging.info(" High-load user simulation completed successfully")
         return True

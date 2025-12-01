@@ -16,24 +16,3 @@ class LoginLocator:
     PROFILE_USERNAME_INPUT = (By.XPATH, "//input[@placeholder='Username']")
     PROFILE_SUBMIT_BTN = (By.XPATH, '//*[@id="mybhojapp"]/section/div/div/div[2]/div/form/button')
 
-    LOGIN_BTN_NAV = (By.XPATH, "//a[translate(text(),'LOGIN','login')='login']")
-
-    EMAIL_INPUT = (
-        By.XPATH,
-        "//input[@placeholder='Email' or @id='email' or @name='email' or contains(@class,'email')]"
-    )
-
-    PASSWORD_INPUT = (
-        By.XPATH,
-        "//input[@placeholder='Password' or @id='password' or @name='password' or contains(@class,'password')]"
-    )
-
-    LOGIN_SUBMIT = (
-        By.XPATH,
-        "//button[contains(text(),'Login') or @type='submit' or contains(@class,'login')]"
-    )
-
-    LOGIN_ERROR = (By.CSS_SELECTOR, "div.alert.alert-dismissible.alert-danger")
-
-
-

@@ -1,0 +1,18 @@
+2025-12-01 11:12:45 INFO Chrome launched successfully.
+2025-12-01 11:12:51 INFO driver initialized
+2025-12-01 11:13:00 INFO Login successful
+2025-12-01 11:13:08 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-01 11:13:22 INFO Scrolled down → back to top → small scroll completed
+2025-12-01 11:13:42 INFO Closing Chrome browser.
+2025-12-01 11:13:47 INFO Chrome launched successfully.
+2025-12-01 11:13:52 INFO driver initialized
+2025-12-01 11:14:05 INFO Successful Login
+2025-12-01 11:14:08 INFO got location
+2025-12-01 11:14:09 INFO Clicked expected result: Amore Pizza (Koteshwor)
+2025-12-01 11:14:12 INFO search product
+2025-12-01 11:14:24 INFO Scrolled down → back to top → small scroll completed
+2025-12-01 11:14:24 INFO View menu page
+2025-12-01 11:14:26 INFO Closing Chrome browser.
+2025-12-01 11:14:30 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44C66710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024
+2025-12-01 11:14:34 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44622990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024
+2025-12-01 11:14:38 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44CA48A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024

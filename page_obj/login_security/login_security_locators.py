@@ -1,5 +1,8 @@
+import logging
 from selenium.webdriver.common.by import By
 
+
 class LoginSecurityLocators:
-    # Your website shows errors inside Bootstrap alert-danger box
+    logging.info("LoginSecurityLocators loaded")
+
     ERROR_MESSAGE = (By.CSS_SELECTOR, "div.alert.alert-dismissible.alert-danger")
