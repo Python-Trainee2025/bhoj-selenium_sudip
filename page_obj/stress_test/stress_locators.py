@@ -1,9 +1,5 @@
-import logging
 from selenium.webdriver.common.by import By
 
-
-class StressLocators:
-    logging.info("StressLocators loaded")
-
+class SearchStressRandomLocators:
     SEARCH_BOX = (By.ID, "exampleInput1")
-    SEARCH_RESULTS = (By.CSS_SELECTOR, ".mb-3")
+    SEARCH_SUGGESTIONS = (By.XPATH, "//div[contains(@class,'search-suggestion')]//a")

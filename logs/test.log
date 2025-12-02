@@ -1,41 +1,63 @@
-2025-12-01 17:46:39 INFO LoginSecurityLocators loaded
-2025-12-01 17:46:39 INFO Loading SQL injection payloads
-2025-12-01 17:46:39 INFO Loading brute-force password list
-2025-12-01 17:46:39 INFO Setting MAX brute force attempts
-2025-12-01 17:46:41 INFO Chrome launched successfully.
-2025-12-01 17:46:41 INFO  Starting SQL Injection Security Test
-2025-12-01 17:46:45 INFO LoginSecurityPage initialized
-2025-12-01 17:46:45 INFO ========= Starting SQL Injection Test =========
-2025-12-01 17:46:45 INFO Testing SQL payload: ' OR '1'='1
-2025-12-01 17:46:45 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR '1'='1
-2025-12-01 17:46:45 INFO LoginPage initialized
-2025-12-01 17:46:45 INFO Starting login process
-2025-12-01 17:46:47 INFO Trying to click navbar login button
-2025-12-01 17:46:47 WARNING Navbar login button not clickable or already on login page: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=142.0.7444.176)
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x7ff6dbeea235
-	0x7ff6dbc42630
-	0x7ff6db9d16dd
-	0x7ff6db9a8e31
-	0x7ff6dba5a22e
-	0x7ff6dba7b3d2
-	0x7ff6dba1b0ed
-	0x7ff6dba1bf63
-	0x7ff6dbf15d60
-	0x7ff6dbf0fe8a
-	0x7ff6dbf31005
-	0x7ff6dbc5d71e
-	0x7ff6dbc64e1f
-	0x7ff6dbc4b7c4
-	0x7ff6dbc4b97f
-	0x7ff6dbc318e8
-	0x7ff95f67e8d7
-	0x7ff96122c53c
-
-2025-12-01 17:46:47 INFO Clearing email field
-2025-12-01 17:46:47 WARNING Email field not clearable
-2025-12-01 17:46:47 INFO Entering email: chelseasudip430@gmail.com
-2025-12-01 17:46:47 INFO Closing Chrome browser.
+2025-12-02 06:50:23 INFO GetLocationLocators loaded
+2025-12-02 06:50:29 INFO Chrome launched successfully.
+2025-12-02 06:50:29 INFO Starting random search stress test
+2025-12-02 06:50:29 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-02 06:50:38 INFO LoginPage initialized
+2025-12-02 06:50:38 INFO Starting login process
+2025-12-02 06:50:40 INFO Trying to click navbar login button
+2025-12-02 06:50:42 INFO Clearing email field
+2025-12-02 06:50:42 INFO Entering email: chelseasudip430@gmail.com
+2025-12-02 06:50:43 INFO Clearing password field
+2025-12-02 06:50:43 INFO Entering password
+2025-12-02 06:50:44 INFO Clicking login submit button
+2025-12-02 06:50:47 INFO Login process finished
+2025-12-02 06:50:50 INFO GetLocationPage initialized
+2025-12-02 06:50:50 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-02 06:50:50 INFO Clicking main Get Location button
+2025-12-02 06:50:50 INFO Selecting specific location (Bhaktapur)
+2025-12-02 06:50:50 INFO Locating Bhaktapur location option
+2025-12-02 06:50:51 INFO Location successfully selected
+2025-12-02 06:50:54 INFO SearchStressRandomPage initialized
+2025-12-02 06:50:54 INFO Generated 120 random words for stress test
+2025-12-02 06:50:54 INFO Typed: wp
+2025-12-02 06:51:04 INFO Typed: gunb
+2025-12-02 06:51:15 INFO Typed: dyszpnpe
+2025-12-02 06:51:25 INFO Typed: dflgprbp
+2025-12-02 06:51:36 INFO Typed: bv
+2025-12-02 06:51:46 INFO Typed: yhj
+2025-12-02 06:51:56 INFO Typed: azgntqye
+2025-12-02 06:52:07 INFO Typed: tsbtups
+2025-12-02 06:52:17 INFO Typed: lr
+2025-12-02 06:52:28 INFO Typed: vqkj
+2025-12-02 06:52:38 INFO Typed: oqfqj
+2025-12-02 06:52:49 INFO Typed: gzqqm
+2025-12-02 06:52:59 INFO Typed: tbxh
+2025-12-02 06:53:09 INFO Typed: mnsg
+2025-12-02 06:53:20 INFO Typed: cbd
+2025-12-02 06:53:30 INFO Typed: kdtnp
+2025-12-02 06:53:41 INFO Typed: mzaw
+2025-12-02 06:53:51 INFO Typed: lwtjkbefyq
+2025-12-02 06:54:02 INFO Typed: eh
+2025-12-02 06:54:12 INFO Typed: ughozh
+2025-12-02 06:54:22 INFO Typed: kyj
+2025-12-02 06:54:33 INFO Typed: kpg
+2025-12-02 06:54:43 INFO Typed: hxkefcgeq
+2025-12-02 06:54:54 INFO Typed: vayuefoty
+2025-12-02 06:55:04 INFO Typed: jvbqnafd
+2025-12-02 06:55:15 INFO Typed: baobpux
+2025-12-02 06:55:26 INFO Typed: dwbtd
+2025-12-02 06:55:36 INFO Typed: ig
+2025-12-02 06:55:47 INFO Typed: wleaxxby
+2025-12-02 06:55:58 INFO Typed: ohrfyvkwm
+2025-12-02 06:56:09 INFO Typed: opxu
+2025-12-02 06:56:19 INFO Typed: iqbwvzs
+2025-12-02 06:56:30 INFO Typed: hjfd
+2025-12-02 06:56:41 INFO Typed: tx
+2025-12-02 06:56:51 INFO Typed: uz
+2025-12-02 06:57:02 INFO Typed: ckvedjn
+2025-12-02 06:57:12 INFO Typed: vo
+2025-12-02 06:57:22 INFO Typed: oya
+2025-12-02 06:57:33 INFO Typed: gbxc
+2025-12-02 06:57:43 INFO Typed: oyx
+2025-12-02 06:57:54 INFO Typed: peiiufjvpj
+2025-12-02 06:58:04 INFO Typed: qqa

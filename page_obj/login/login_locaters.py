@@ -16,3 +16,4 @@ class LoginLocator:
     PROFILE_USERNAME_INPUT = (By.XPATH, "//input[@placeholder='Username']")
     PROFILE_SUBMIT_BTN = (By.XPATH, '//*[@id="mybhojapp"]/section/div/div/div[2]/div/form/button')
 
+    INVALID_ERROR = (By.XPATH, "//span[contains(text(),'invalid') or contains(text(),'Invalid')]")

@@ -61,3 +61,15 @@ class SearchPage(SearchProperties):
             first_item.click()
 
         logging.info("Search operation completed successfully")
+
+    def fast_typing_search(self, word):
+        searchbox = self.search_input
+        searchbox.clear()
+
+        # Type extremely fast
+        for ch in word:
+            searchbox.send_keys(ch)
+
+        # Wait for dropdown
+        self.wait.until(EC.visibility_of_element_located(SearchLocators.DROPDOWN))
+

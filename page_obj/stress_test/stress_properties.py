@@ -1,16 +1,14 @@
-import logging
+import random
+import string
 
 
-class StressProperties:
+class SearchStressRandomProperties:
 
-    logging.info("Loading Stress Test Keywords")
-    RANDOM_KEYWORDS = [
-        "burger", "pizza", "momo", "coffee", "cake", "fries",
-        "thukpa", "sushi", "chowmin", "wrap"
-    ]
-
-    logging.info("Loading Stress Test Constants")
-    TOTAL_REQUESTS = 50
-    MIN_DELAY = 0.1
-    MAX_DELAY = 0.4
-    MAX_RESPONSE_TIME = 3
+    @staticmethod
+    def generate_random_words(count=120):
+        words = []
+        for _ in range(count):
+            length = random.randint(2, 10)
+            word = ''.join(random.choices(string.ascii_lowercase, k=length))
+            words.append(word)
+        return words

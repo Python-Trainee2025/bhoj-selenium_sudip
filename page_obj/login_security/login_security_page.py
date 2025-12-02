@@ -38,7 +38,7 @@ class LoginSecurityPage:
 
             self.attempt_login(valid_email, payload)
 
-            # If login unexpectedly succeeds → FAIL
+            # If login unexpectedly succeeds then FAIL
             if "/my-account" in self.driver.current_url.lower():
                 logging.error(f"CRITICAL: Login succeeded with SQL payload: {payload}")
                 return False

@@ -22,10 +22,10 @@ class LoginPage(LoginProperties):
             logging.info("Trying to click navbar login button")
             self.nav_login_btn.click()
             time.sleep(2)
-        except Exception as e:
-            logging.warning(f"Navbar login button not clickable or already on login page: {e}")
+        except :
+            logging.warning(f"Navbar login button not clickable or already on login page")
 
-        #  Now fill the login form (works in both cases)
+        #  fill the login form
         try:
             logging.info("Clearing email field")
             self.email.clear()

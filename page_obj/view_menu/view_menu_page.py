@@ -2,6 +2,7 @@ import time
 import logging
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from page_obj.view_menu.view_menu_locaters  import ViewMenuLocators
 
 from page_obj.view_menu.view_menu_properties import ViewMenuProperties
 
@@ -49,3 +50,5 @@ class ViewMenuPage(ViewMenuProperties):
         time.sleep(1)
 
         logging.info("View Menu scroll interactions completed")
+
+
