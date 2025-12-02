@@ -32,7 +32,7 @@ class AddToCartPage(AddToCartProperties):
         add_quantity = self.wait.until(
             EC.element_to_be_clickable(AddToCartLocators.ADD_QUANTITY)
         )
-        add_quantity.click()
+        add_quantity.click()  #click variablenamee
 
         logging.info("Reducing item quantity")
         sub_quantity = self.wait.until(

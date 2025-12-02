@@ -11,7 +11,7 @@ from setup.base_test import BaseTest
 class TestFilter(BaseTest):
 
     def test_filter_functions(self):
-        logging.info("===== Starting Filter Test =====")
+        logging.info(" Starting Filter Test")
 
         # 1. Open base URL
         url = self.cred["base_url"]

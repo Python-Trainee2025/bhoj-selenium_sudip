@@ -10,7 +10,7 @@ class AddToCartProperties(AddToCartLocators):
         return self.driver.find_element(*AddToCartLocators.FIRST_ITEM)
 
     @property
-    def burger(self):  # Duplicate — but not changed because you said not to modify logic
+    def burger(self):
         logging.info("Accessing burger (SECOND_ITEM)")
         return self.driver.find_element(*AddToCartLocators.SECOND_ITEM)
 

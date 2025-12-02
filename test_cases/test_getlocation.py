@@ -10,7 +10,7 @@ class TestGetLocation(BaseTest):
     def test_get_location(self):
         logging.info("Starting Get Location Test")
 
-        url = self.cred["base_url"]
+        url = self.cred["base_url"] #url stores link from dictationary in base test
         logging.info(f"Opening URL: {url}")
         self.driver.get(url)
 
@@ -26,10 +26,10 @@ class TestGetLocation(BaseTest):
         time.sleep(3)
 
         logging.info("Initializing GetLocationPage")
-        getlocation_p = GetLocationPage(self.driver)
+        getlocation = GetLocationPage(self.driver)
 
         logging.info("Selecting location")
-        getlocation_p.get_location_page()
+        getlocation.get_location_page()
         time.sleep(3)
 
         logging.info("Get Location Test Completed")

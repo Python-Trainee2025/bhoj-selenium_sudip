@@ -3,9 +3,9 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-# ----------------------------------------
-# Updated Logging Configuration (Your Request)
-# ----------------------------------------
+
+# Updated Logging Configuration
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] - %(message)s'

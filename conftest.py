@@ -20,35 +20,6 @@ def pytest_configure(config):
 
 
 
-#  Screenshot on test failure
-
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-
-    outcome = yield
-    report = outcome.get_result()
-
-    if report.when == "call" and report.failed:
-
-        driver = getattr(item, "_driver", None)
-        if driver:
-            screenshot_dir = "reports/screenshots"
-            os.makedirs(screenshot_dir, exist_ok=True)
-
-            file_name = f"{item.name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.png"
-            path = os.path.join(screenshot_dir, file_name)
-
-            # Save screenshot
-            driver.save_screenshot(path)
-
-            # Attach screenshot to report
-            extra = getattr(report, "extra", [])
-            if item.config.pluginmanager.hasplugin("html"):
-                extra.append(pytest_html.extras.image(path))
-            report.extra = extra
-
-
-
 #  Add test duration to table
 
 def pytest_html_results_table_header(cells):

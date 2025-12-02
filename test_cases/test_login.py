@@ -11,7 +11,7 @@ class TestLogin(BaseTest):
 
         # Open the site using BaseTest method
         logging.info("Opening URL https://www.bhojdeals.com/")
-        self.open_url("https://www.bhojdeals.com/")
+        self.open_url("https://www.bhojdeals.com/") #calls function open_url from BaseTest
         time.sleep(3)
 
         login = LoginPage(self.driver)

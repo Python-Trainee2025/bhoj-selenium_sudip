@@ -15,7 +15,7 @@ class TestAddToCart(BaseTest):
 
         url = self.cred["base_url"]
         logging.info(f"Opening base URL: {url}")
-        self.driver.get(url)
+        self.driver.get(url) #URL goes directly into the Chrome browser,
         logging.info("Driver initialized")
 
         loginpage = LoginPage(self.driver)
@@ -27,8 +27,8 @@ class TestAddToCart(BaseTest):
         time.sleep(3)
 
         logging.info("Going to Get Location page")
-        getlocation_p = GetLocationPage(self.driver)
-        getlocation_p.get_location_page()
+        getlocation= GetLocationPage(self.driver)
+        getlocation.get_location_page()
         time.sleep(3)
 
         logging.info("Performing search for burger")
