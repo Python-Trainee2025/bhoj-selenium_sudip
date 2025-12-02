@@ -1,0 +1,94 @@
+2025-12-02 10:52:09 INFO GetLocationLocators loaded
+2025-12-02 10:52:11 INFO Chrome launched successfully.
+2025-12-02 10:52:11 INFO Starting random search stress test
+2025-12-02 10:52:11 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-02 10:52:18 INFO LoginPage initialized
+2025-12-02 10:52:18 INFO Starting login process
+2025-12-02 10:52:20 INFO Trying to click navbar login button
+2025-12-02 10:52:22 INFO Clearing email field
+2025-12-02 10:52:22 INFO Entering email: chelseasudip430@gmail.com
+2025-12-02 10:52:23 INFO Clearing password field
+2025-12-02 10:52:23 INFO Entering password
+2025-12-02 10:52:24 INFO Clicking login submit button
+2025-12-02 10:52:27 INFO Login process finished
+2025-12-02 10:52:28 INFO GetLocationPage initialized
+2025-12-02 10:52:28 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-02 10:52:28 INFO Clicking main Get Location button
+2025-12-02 10:52:29 INFO Selecting specific location (Bhaktapur)
+2025-12-02 10:52:29 INFO Locating Bhaktapur location option
+2025-12-02 10:52:29 INFO Location successfully selected
+2025-12-02 10:52:30 INFO SearchStressWordsPage initialized
+2025-12-02 10:52:30 INFO Running stress test using 70 predefined words
+2025-12-02 10:52:30 INFO Typed: pizza
+2025-12-02 10:52:31 INFO Typed: burger
+2025-12-02 10:52:32 INFO Typed: momo
+2025-12-02 10:52:32 INFO Typed: coffee
+2025-12-02 10:52:33 INFO Typed: tea
+2025-12-02 10:52:33 INFO Typed: chowmein
+2025-12-02 10:52:34 INFO Typed: biryani
+2025-12-02 10:52:34 INFO Typed: rice
+2025-12-02 10:52:34 INFO Typed: pasta
+2025-12-02 10:52:35 INFO Typed: noodles
+2025-12-02 10:52:35 INFO Typed: sandwich
+2025-12-02 10:52:36 INFO Typed: fried chicken
+2025-12-02 10:52:36 INFO Typed: thukpa
+2025-12-02 10:52:37 INFO Typed: thali
+2025-12-02 10:52:38 INFO Typed: wrap
+2025-12-02 10:52:38 INFO Typed: sushi
+2025-12-02 10:52:38 INFO Typed: cake
+2025-12-02 10:52:39 INFO Typed: cookies
+2025-12-02 10:52:40 INFO Typed: juice
+2025-12-02 10:52:40 INFO Typed: smoothie
+2025-12-02 10:52:41 INFO Typed: salad
+2025-12-02 10:52:41 INFO Typed: pancake
+2025-12-02 10:52:41 INFO Typed: steak
+2025-12-02 10:52:42 INFO Typed: taco
+2025-12-02 10:52:43 INFO Typed: sausage
+2025-12-02 10:52:43 INFO Typed: fish
+2025-12-02 10:52:44 INFO Typed: shrimp
+2025-12-02 10:52:45 INFO Typed: roll
+2025-12-02 10:52:45 INFO Typed: dumpling
+2025-12-02 10:52:45 INFO Typed: hotdog
+2025-12-02 10:52:46 INFO Typed: icecream
+2025-12-02 10:52:46 INFO Typed: lassi
+2025-12-02 10:52:47 INFO Typed: donut
+2025-12-02 10:52:47 INFO Typed: shawarma
+2025-12-02 10:52:48 INFO Typed: samosa
+2025-12-02 10:52:48 INFO Typed: katti roll
+2025-12-02 10:52:49 INFO Typed: paratha
+2025-12-02 10:52:49 INFO Typed: veg burger
+2025-12-02 10:52:50 INFO Typed: classic burger
+2025-12-02 10:52:51 INFO Typed: bbq chicken
+2025-12-02 10:52:52 INFO Typed: crispy chicken
+2025-12-02 10:52:53 INFO Typed: peri peri
+2025-12-02 10:52:53 INFO Typed: veg momo
+2025-12-02 10:52:54 INFO Typed: buff momo
+2025-12-02 10:52:54 INFO Typed: chicken momo
+2025-12-02 10:52:55 INFO Typed: veg fried rice
+2025-12-02 10:52:55 INFO Typed: milk tea
+2025-12-02 10:52:55 INFO Typed: black tea
+2025-12-02 10:52:56 INFO Typed: special pizza
+2025-12-02 10:52:56 INFO Typed: double cheese pizza
+2025-12-02 10:52:57 INFO Typed: garlic bread
+2025-12-02 10:52:57 INFO Typed: spicy wings
+2025-12-02 10:52:58 INFO Typed: non-veg platter
+2025-12-02 10:52:58 INFO Typed: veg platter
+2025-12-02 10:52:59 INFO Typed: masko coffee
+2025-12-02 10:52:59 INFO Typed: americano
+2025-12-02 10:53:00 INFO Typed: latte
+2025-12-02 10:53:01 INFO Typed: mocha
+2025-12-02 10:53:01 INFO Typed: cold brew
+2025-12-02 10:53:01 INFO Typed: green tea
+2025-12-02 10:53:03 INFO Typed: mint tea
+2025-12-02 10:53:04 INFO Typed: french fries
+2025-12-02 10:53:04 INFO Typed: cheese fries
+2025-12-02 10:53:05 INFO Typed: egg roll
+2025-12-02 10:53:06 INFO Typed: egg curry
+2025-12-02 10:53:07 INFO Typed: dal bhat
+2025-12-02 10:53:07 INFO Typed: thakali
+2025-12-02 10:53:09 INFO Typed: paneer
+2025-12-02 10:53:10 INFO Typed: tofu
+2025-12-02 10:53:10 INFO Typed: special thali
+2025-12-02 10:53:11 INFO Suggestions appeared for 70/70 random inputs
+2025-12-02 10:53:11 INFO Random word stress test completed successfully
+2025-12-02 10:53:11 INFO Closing Chrome browser.

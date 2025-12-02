@@ -30,7 +30,7 @@ class SearchStressWordsPage:
             search_box.send_keys(word)
             logging.info(f"Typed: {word}")
 
-            time.sleep(0.10)  # rapid typing (100ms)
+            time.sleep(0.3)  # rapid typing (100ms)
 
             # Check suggestion UI appears
             try:
