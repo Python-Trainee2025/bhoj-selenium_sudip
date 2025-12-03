@@ -3,7 +3,6 @@ from page_obj.search.search_locators import SearchLocators
 
 
 class SearchProperties:
-
     @property
     def search_input(self):
         logging.info("Accessing SEARCH_BOX element")

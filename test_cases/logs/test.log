@@ -1,18 +1,154 @@
-2025-12-01 11:12:45 INFO Chrome launched successfully.
-2025-12-01 11:12:51 INFO driver initialized
-2025-12-01 11:13:00 INFO Login successful
-2025-12-01 11:13:08 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
-2025-12-01 11:13:22 INFO Scrolled down → back to top → small scroll completed
-2025-12-01 11:13:42 INFO Closing Chrome browser.
-2025-12-01 11:13:47 INFO Chrome launched successfully.
-2025-12-01 11:13:52 INFO driver initialized
-2025-12-01 11:14:05 INFO Successful Login
-2025-12-01 11:14:08 INFO got location
-2025-12-01 11:14:09 INFO Clicked expected result: Amore Pizza (Koteshwor)
-2025-12-01 11:14:12 INFO search product
-2025-12-01 11:14:24 INFO Scrolled down → back to top → small scroll completed
-2025-12-01 11:14:24 INFO View menu page
-2025-12-01 11:14:26 INFO Closing Chrome browser.
-2025-12-01 11:14:30 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44C66710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024
-2025-12-01 11:14:34 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44622990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024
-2025-12-01 11:14:38 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013C44CA48A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d83ff2b91f03a0f6fd1d7af81ad10024
+2025-12-03 18:48:54 INFO Loading AddToCartLocators
+2025-12-03 18:48:54 INFO GetLocationLocators loaded
+2025-12-03 18:48:54 INFO SearchLocators loaded
+2025-12-03 18:48:54 INFO ViewMenuLocators loaded
+2025-12-03 18:48:54 INFO CheckoutLocators loaded
+2025-12-03 18:48:54 INFO FilterLocators loaded
+2025-12-03 18:48:54 INFO LoginSecurityLocators loaded
+2025-12-03 18:48:54 INFO Loading SQL injection payloads
+2025-12-03 18:48:56 INFO Chrome launched successfully.
+2025-12-03 18:48:56 INFO Starting Add to Cart Test
+2025-12-03 18:48:56 INFO Opening base URL: https://www.bhojdeals.com/
+2025-12-03 18:49:03 INFO Driver initialized
+2025-12-03 18:49:03 INFO LoginPage initialized
+2025-12-03 18:49:03 INFO Attempting login with email: chelseasudip430@gmail.com
+2025-12-03 18:49:03 INFO Starting login process
+2025-12-03 18:49:05 INFO Trying to click navbar login button
+2025-12-03 18:49:07 INFO Clearing email field
+2025-12-03 18:49:07 INFO Entering email: chelseasudip430@gmail.com
+2025-12-03 18:49:09 INFO Clearing password field
+2025-12-03 18:49:09 INFO Entering password
+2025-12-03 18:49:10 INFO Clicking login submit button
+2025-12-03 18:49:13 INFO Login process finished
+2025-12-03 18:49:13 INFO Login successful
+2025-12-03 18:49:16 INFO Going to Get Location page
+2025-12-03 18:49:16 INFO GetLocationPage initialized
+2025-12-03 18:49:16 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-03 18:49:16 INFO Clicking main Get Location button
+2025-12-03 18:49:16 INFO Selecting specific location (Bhaktapur)
+2025-12-03 18:49:16 INFO Locating Bhaktapur location option
+2025-12-03 18:49:16 INFO Location successfully selected
+2025-12-03 18:49:19 INFO Performing search for burger
+2025-12-03 18:49:19 INFO SearchPage initialized
+2025-12-03 18:49:19 INFO Starting search for: burger
+2025-12-03 18:49:19 INFO Waiting for SEARCH_BOX to be clickable
+2025-12-03 18:49:19 INFO Waiting for SEARCH_BOX and clearing it
+2025-12-03 18:49:19 INFO Typing search query: burger
+2025-12-03 18:49:19 INFO Waiting for search suggestions to appear
+2025-12-03 18:49:21 INFO Looking for expected suggestion: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-03 18:49:21 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-03 18:49:21 INFO Search operation completed successfully
+2025-12-03 18:49:24 INFO Opening menu page
+2025-12-03 18:49:24 INFO ViewMenuPage initialized
+2025-12-03 18:49:24 INFO Clicking restaurant to open menu
+2025-12-03 18:49:24 INFO Accessing restaurant selection element
+2025-12-03 18:49:26 INFO Starting smooth scroll down
+2025-12-03 18:49:29 INFO Completed scrolling down; now scrolling back up
+2025-12-03 18:49:33 INFO Scrolling up completed
+2025-12-03 18:49:34 INFO Performing small final scroll
+2025-12-03 18:49:35 INFO View Menu scroll interactions completed
+2025-12-03 18:49:40 INFO Adding items to car
+2025-12-03 18:49:40 INFO AddToCartPage initialized
+2025-12-03 18:49:40 INFO Waiting for first item to be clickable
+2025-12-03 18:49:40 INFO Clicking first item
+2025-12-03 18:49:41 INFO Waiting for second item to be clickable
+2025-12-03 18:49:41 INFO Clicking second item
+2025-12-03 18:49:41 INFO Increasing item quantity
+2025-12-03 18:49:42 INFO Reducing item quantity
+2025-12-03 18:49:43 INFO Add to Cart actions completed
+2025-12-03 18:49:43 INFO Add to Cart process complete
+2025-12-03 18:49:48 INFO Closing Chrome browser.
+2025-12-03 18:49:52 INFO Chrome launched successfully.
+2025-12-03 18:49:52 INFO  Starting Checkout Test
+2025-12-03 18:49:52 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-03 18:49:58 INFO Driver initialized
+2025-12-03 18:50:01 INFO LoginPage initialized
+2025-12-03 18:50:01 INFO Logging in with: chelseasudip430@gmail.com
+2025-12-03 18:50:01 INFO Starting login process
+2025-12-03 18:50:03 INFO Trying to click navbar login button
+2025-12-03 18:50:05 INFO Clearing email field
+2025-12-03 18:50:05 INFO Entering email: chelseasudip430@gmail.com
+2025-12-03 18:50:06 INFO Clearing password field
+2025-12-03 18:50:06 INFO Entering password
+2025-12-03 18:50:07 INFO Clicking login submit button
+2025-12-03 18:50:10 INFO Login process finished
+2025-12-03 18:50:10 INFO Login successful
+2025-12-03 18:50:13 INFO GetLocationPage initialized
+2025-12-03 18:50:13 INFO Selecting location
+2025-12-03 18:50:13 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-03 18:50:13 INFO Clicking main Get Location button
+2025-12-03 18:50:14 INFO Selecting specific location (Bhaktapur)
+2025-12-03 18:50:14 INFO Locating Bhaktapur location option
+2025-12-03 18:50:14 INFO Closing Chrome browser.
+2025-12-03 18:50:18 INFO Chrome launched successfully.
+2025-12-03 18:50:18 INFO Starting Edit Profile Test
+2025-12-03 18:50:18 INFO Opening Bhojdeals website
+2025-12-03 18:50:18 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-03 18:50:26 INFO LoginPage initialized
+2025-12-03 18:50:26 INFO LoginPage initialized for profile edit
+2025-12-03 18:50:26 INFO Logging in with email: chelseasudip430@gmail.com
+2025-12-03 18:50:26 INFO Starting login process
+2025-12-03 18:50:28 INFO Trying to click navbar login button
+2025-12-03 18:50:30 INFO Clearing email field
+2025-12-03 18:50:30 WARNING Email field not clearable
+2025-12-03 18:50:30 INFO Entering email: chelseasudip430@gmail.com
+2025-12-03 18:50:30 INFO Closing Chrome browser.
+2025-12-03 18:50:35 INFO Chrome launched successfully.
+2025-12-03 18:50:35 INFO  Starting Filter Test
+2025-12-03 18:50:35 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-03 18:50:40 INFO LoginPage initialized
+2025-12-03 18:50:40 INFO Logging in with email: chelseasudip430@gmail.com
+2025-12-03 18:50:40 INFO Starting login process
+2025-12-03 18:50:42 INFO Trying to click navbar login button
+2025-12-03 18:50:44 INFO Clearing email field
+2025-12-03 18:50:44 INFO Entering email: chelseasudip430@gmail.com
+2025-12-03 18:50:45 INFO Clearing password field
+2025-12-03 18:50:45 INFO Entering password
+2025-12-03 18:50:46 INFO Clicking login submit button
+2025-12-03 18:50:49 INFO Login process finished
+2025-12-03 18:50:49 INFO Selecting location
+2025-12-03 18:50:49 INFO GetLocationPage initialized
+2025-12-03 18:50:49 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-03 18:50:49 INFO Clicking main Get Location button
+2025-12-03 18:50:50 INFO Selecting specific location (Bhaktapur)
+2025-12-03 18:50:50 INFO Locating Bhaktapur location option
+2025-12-03 18:50:50 INFO Location successfully selected
+2025-12-03 18:50:50 INFO Initializing FilterPage
+2025-12-03 18:50:50 INFO FilterPage initialized
+2025-12-03 18:51:00 INFO Applying Today's Deal filter
+2025-12-03 18:51:00 INFO Waiting for Today's Deal filter to be clickable
+2025-12-03 18:51:00 INFO Accessing TODAY_DEAL button
+2025-12-03 18:51:00 INFO Today's Deal filter applied
+2025-12-03 18:51:10 INFO Applying Category filter
+2025-12-03 18:51:10 INFO Waiting for Category filter button to be clickable
+2025-12-03 18:51:10 INFO Accessing BROWSE_CATEGORY button
+2025-12-03 18:51:10 INFO Category filter applied
+2025-12-03 18:51:20 INFO Applying Cuisine filter
+2025-12-03 18:51:20 INFO Waiting for Cuisine filter button to be clickable
+2025-12-03 18:51:20 INFO Accessing BROWSE_CUISINE button
+2025-12-03 18:51:20 INFO Cuisine filter applied
+2025-12-03 18:51:30 INFO Sorting by popularity
+2025-12-03 18:51:30 INFO Sorting by Popularity
+2025-12-03 18:51:30 INFO Accessing SORT_POPULARITY dropdown
+2025-12-03 18:51:30 INFO Accessing SORT_POPULARITY dropdown
+2025-12-03 18:51:30 INFO Sorted by popularity
+2025-12-03 18:51:35 INFO Sorting by price
+2025-12-03 18:51:35 INFO Sorting by Price
+2025-12-03 18:51:35 INFO Accessing SORT_PRICE dropdown
+2025-12-03 18:51:36 INFO Accessing SORT_PRICE dropdown
+2025-12-03 18:51:36 INFO Sorted by price
+2025-12-03 18:51:41 INFO Opening all restaurants
+2025-12-03 18:51:41 INFO Opening All Restaurants
+2025-12-03 18:51:41 INFO Accessing ALL_RESTAURANT button
+2025-12-03 18:51:41 INFO All Restaurants opened
+2025-12-03 18:51:46 INFO Resetting all filters
+2025-12-03 18:51:46 INFO Resetting all filters
+2025-12-03 18:51:46 INFO Accessing RESET button
+2025-12-03 18:51:46 INFO Filters reset successfully
+2025-12-03 18:51:56 INFO Filter Test Completed Successfully
+2025-12-03 18:51:56 INFO Closing Chrome browser.
+2025-12-03 18:52:01 INFO Chrome launched successfully.
+2025-12-03 18:52:01 INFO Starting Get Location Test
+2025-12-03 18:52:01 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-03 18:52:06 INFO Closing Chrome browser.
+2025-12-03 18:52:10 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9F2E8CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fb27fc19c8f41f35ebbaa6822c6a744c

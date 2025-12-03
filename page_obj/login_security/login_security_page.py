@@ -62,31 +62,3 @@ class LoginSecurityPage:
         return True
 
 
-    # Brute Force Login Test
-
-    def test_brute_force(self, target_email):
-
-        logging.info(" Starting Brute Force Test ")
-
-        for attempt, pwd in enumerate(LoginSecurityProperties.BRUTE_FORCE_PASSWORDS, start=1):
-
-            logging.info(f"Attempt {attempt}/{LoginSecurityProperties.MAX_BRUTE_FORCE_ATTEMPTS} "
-                         f"with password: {pwd}")
-
-            self.attempt_login(target_email, pwd)
-
-            try:
-                self.wait.until(
-                    EC.visibility_of_element_located(LoginSecurityLocators.ERROR_MESSAGE)
-                )
-                logging.info(" Wrong password rejected")
-            except:
-                logging.error(" Wrong password accepted — brute-force protection failed!")
-                return False
-
-            if attempt >= LoginSecurityProperties.MAX_BRUTE_FORCE_ATTEMPTS:
-                logging.info("Reached max brute-force attempts limit")
-                break
-
-        logging.info(" Brute Force Test Passed")
-        return True

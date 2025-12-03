@@ -39,7 +39,7 @@ class BaseTest:
         logger.info("Chrome launched successfully.")
 
         # FOR PYTEST-HTML SCREENSHOTS
-        request.node._driver = self.driver
+        #request.node._driver = self.driver
 
         # Credentials
         self.cred = {

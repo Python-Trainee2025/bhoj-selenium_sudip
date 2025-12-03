@@ -2,6 +2,7 @@ import logging
 import time
 from page_obj.add_to_cart.add_to_cart_page import AddToCartPage
 from page_obj.checkout.checkout_page import CheckoutPage
+from page_obj.filter_pom.filter_page import FilterPage
 from page_obj.get_location.getlocation_page import GetLocationPage
 from page_obj.login.login_page import LoginPage
 from page_obj.search.search_page import SearchPage
@@ -26,6 +27,10 @@ class TestCheckout(BaseTest):
         logging.info(f"Logging in with: {uname}")
         login.login(uname, pwd)
         logging.info("Login successful")
+        time.sleep(3)
+
+
+
 
         location = GetLocationPage(self.driver)
         logging.info("Selecting location")
@@ -33,11 +38,31 @@ class TestCheckout(BaseTest):
         time.sleep(3)
         logging.info("Location selected")
 
+        logging.info("starting filtering process")
+        filter = FilterPage(self.driver)
+        filter.apply_todays_deal()
+        time.sleep(3)
+        filter.apply_category()
+        time.sleep(3)
+        filter.apply_cuisine()
+        time.sleep(3)
+        filter.sort_by_popularity()
+        time.sleep(3)
+        filter.sort_by_price()
+        time.sleep(3)
+        filter.open_all_restaurants()
+        time.sleep(3)
+        filter.reset_filters()
+        time.sleep(3)
+        logging.info("Filtering process completed")
+
         logging.info("Searching for product: amore pizza")
         search = SearchPage(self.driver)
-        search.search_item("amore pizza", "Amore Pizza (Koteshwor)")
+        search.search_item("Amore pizza", "Amore Pizza (Koteshwor)")
         time.sleep(3)
         logging.info("Search complete")
+
+
 
         logging.info("Opening menu page")
         view_menu = ViewMenuPage(self.driver)
