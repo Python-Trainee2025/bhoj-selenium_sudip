@@ -8,7 +8,7 @@ from page_obj.stress_test.stress_page import SearchStressWordsPage
 
 class TestSearchStressRandom(BaseTest):
 
-    def test_random_word_stress_search(self):
+    def test_word_stress_search(self):
         logging.info("Starting random search stress test")
 
         # Step 1: Open URL
@@ -33,4 +33,4 @@ class TestSearchStressRandom(BaseTest):
 
         assert success >= (total * 0.60), "Search suggestions failed frequently during stress test!"  # 60% threshold
 
-        logging.info("Random word stress test completed successfully")
+        logging.info(" stress test completed successfully")

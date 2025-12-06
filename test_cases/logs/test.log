@@ -1,154 +1,533 @@
-2025-12-03 18:48:54 INFO Loading AddToCartLocators
-2025-12-03 18:48:54 INFO GetLocationLocators loaded
-2025-12-03 18:48:54 INFO SearchLocators loaded
-2025-12-03 18:48:54 INFO ViewMenuLocators loaded
-2025-12-03 18:48:54 INFO CheckoutLocators loaded
-2025-12-03 18:48:54 INFO FilterLocators loaded
-2025-12-03 18:48:54 INFO LoginSecurityLocators loaded
-2025-12-03 18:48:54 INFO Loading SQL injection payloads
-2025-12-03 18:48:56 INFO Chrome launched successfully.
-2025-12-03 18:48:56 INFO Starting Add to Cart Test
-2025-12-03 18:48:56 INFO Opening base URL: https://www.bhojdeals.com/
-2025-12-03 18:49:03 INFO Driver initialized
-2025-12-03 18:49:03 INFO LoginPage initialized
-2025-12-03 18:49:03 INFO Attempting login with email: chelseasudip430@gmail.com
-2025-12-03 18:49:03 INFO Starting login process
-2025-12-03 18:49:05 INFO Trying to click navbar login button
-2025-12-03 18:49:07 INFO Clearing email field
-2025-12-03 18:49:07 INFO Entering email: chelseasudip430@gmail.com
-2025-12-03 18:49:09 INFO Clearing password field
-2025-12-03 18:49:09 INFO Entering password
-2025-12-03 18:49:10 INFO Clicking login submit button
-2025-12-03 18:49:13 INFO Login process finished
-2025-12-03 18:49:13 INFO Login successful
-2025-12-03 18:49:16 INFO Going to Get Location page
-2025-12-03 18:49:16 INFO GetLocationPage initialized
-2025-12-03 18:49:16 INFO Waiting for 'Get Food & Grocery delivered' section
-2025-12-03 18:49:16 INFO Clicking main Get Location button
-2025-12-03 18:49:16 INFO Selecting specific location (Bhaktapur)
-2025-12-03 18:49:16 INFO Locating Bhaktapur location option
-2025-12-03 18:49:16 INFO Location successfully selected
-2025-12-03 18:49:19 INFO Performing search for burger
-2025-12-03 18:49:19 INFO SearchPage initialized
-2025-12-03 18:49:19 INFO Starting search for: burger
-2025-12-03 18:49:19 INFO Waiting for SEARCH_BOX to be clickable
-2025-12-03 18:49:19 INFO Waiting for SEARCH_BOX and clearing it
-2025-12-03 18:49:19 INFO Typing search query: burger
-2025-12-03 18:49:19 INFO Waiting for search suggestions to appear
-2025-12-03 18:49:21 INFO Looking for expected suggestion: The Burger House and Crunchy Fried Chicken (Pepsicola)
-2025-12-03 18:49:21 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
-2025-12-03 18:49:21 INFO Search operation completed successfully
-2025-12-03 18:49:24 INFO Opening menu page
-2025-12-03 18:49:24 INFO ViewMenuPage initialized
-2025-12-03 18:49:24 INFO Clicking restaurant to open menu
-2025-12-03 18:49:24 INFO Accessing restaurant selection element
-2025-12-03 18:49:26 INFO Starting smooth scroll down
-2025-12-03 18:49:29 INFO Completed scrolling down; now scrolling back up
-2025-12-03 18:49:33 INFO Scrolling up completed
-2025-12-03 18:49:34 INFO Performing small final scroll
-2025-12-03 18:49:35 INFO View Menu scroll interactions completed
-2025-12-03 18:49:40 INFO Adding items to car
-2025-12-03 18:49:40 INFO AddToCartPage initialized
-2025-12-03 18:49:40 INFO Waiting for first item to be clickable
-2025-12-03 18:49:40 INFO Clicking first item
-2025-12-03 18:49:41 INFO Waiting for second item to be clickable
-2025-12-03 18:49:41 INFO Clicking second item
-2025-12-03 18:49:41 INFO Increasing item quantity
-2025-12-03 18:49:42 INFO Reducing item quantity
-2025-12-03 18:49:43 INFO Add to Cart actions completed
-2025-12-03 18:49:43 INFO Add to Cart process complete
-2025-12-03 18:49:48 INFO Closing Chrome browser.
-2025-12-03 18:49:52 INFO Chrome launched successfully.
-2025-12-03 18:49:52 INFO  Starting Checkout Test
-2025-12-03 18:49:52 INFO Opening URL: https://www.bhojdeals.com/
-2025-12-03 18:49:58 INFO Driver initialized
-2025-12-03 18:50:01 INFO LoginPage initialized
-2025-12-03 18:50:01 INFO Logging in with: chelseasudip430@gmail.com
-2025-12-03 18:50:01 INFO Starting login process
-2025-12-03 18:50:03 INFO Trying to click navbar login button
-2025-12-03 18:50:05 INFO Clearing email field
-2025-12-03 18:50:05 INFO Entering email: chelseasudip430@gmail.com
-2025-12-03 18:50:06 INFO Clearing password field
-2025-12-03 18:50:06 INFO Entering password
-2025-12-03 18:50:07 INFO Clicking login submit button
-2025-12-03 18:50:10 INFO Login process finished
-2025-12-03 18:50:10 INFO Login successful
-2025-12-03 18:50:13 INFO GetLocationPage initialized
-2025-12-03 18:50:13 INFO Selecting location
-2025-12-03 18:50:13 INFO Waiting for 'Get Food & Grocery delivered' section
-2025-12-03 18:50:13 INFO Clicking main Get Location button
-2025-12-03 18:50:14 INFO Selecting specific location (Bhaktapur)
-2025-12-03 18:50:14 INFO Locating Bhaktapur location option
-2025-12-03 18:50:14 INFO Closing Chrome browser.
-2025-12-03 18:50:18 INFO Chrome launched successfully.
-2025-12-03 18:50:18 INFO Starting Edit Profile Test
-2025-12-03 18:50:18 INFO Opening Bhojdeals website
-2025-12-03 18:50:18 INFO Opening URL: https://www.bhojdeals.com/
-2025-12-03 18:50:26 INFO LoginPage initialized
-2025-12-03 18:50:26 INFO LoginPage initialized for profile edit
-2025-12-03 18:50:26 INFO Logging in with email: chelseasudip430@gmail.com
-2025-12-03 18:50:26 INFO Starting login process
-2025-12-03 18:50:28 INFO Trying to click navbar login button
-2025-12-03 18:50:30 INFO Clearing email field
-2025-12-03 18:50:30 WARNING Email field not clearable
-2025-12-03 18:50:30 INFO Entering email: chelseasudip430@gmail.com
-2025-12-03 18:50:30 INFO Closing Chrome browser.
-2025-12-03 18:50:35 INFO Chrome launched successfully.
-2025-12-03 18:50:35 INFO  Starting Filter Test
-2025-12-03 18:50:35 INFO Opening URL: https://www.bhojdeals.com/
-2025-12-03 18:50:40 INFO LoginPage initialized
-2025-12-03 18:50:40 INFO Logging in with email: chelseasudip430@gmail.com
-2025-12-03 18:50:40 INFO Starting login process
-2025-12-03 18:50:42 INFO Trying to click navbar login button
-2025-12-03 18:50:44 INFO Clearing email field
-2025-12-03 18:50:44 INFO Entering email: chelseasudip430@gmail.com
-2025-12-03 18:50:45 INFO Clearing password field
-2025-12-03 18:50:45 INFO Entering password
-2025-12-03 18:50:46 INFO Clicking login submit button
-2025-12-03 18:50:49 INFO Login process finished
-2025-12-03 18:50:49 INFO Selecting location
-2025-12-03 18:50:49 INFO GetLocationPage initialized
-2025-12-03 18:50:49 INFO Waiting for 'Get Food & Grocery delivered' section
-2025-12-03 18:50:49 INFO Clicking main Get Location button
-2025-12-03 18:50:50 INFO Selecting specific location (Bhaktapur)
-2025-12-03 18:50:50 INFO Locating Bhaktapur location option
-2025-12-03 18:50:50 INFO Location successfully selected
-2025-12-03 18:50:50 INFO Initializing FilterPage
-2025-12-03 18:50:50 INFO FilterPage initialized
-2025-12-03 18:51:00 INFO Applying Today's Deal filter
-2025-12-03 18:51:00 INFO Waiting for Today's Deal filter to be clickable
-2025-12-03 18:51:00 INFO Accessing TODAY_DEAL button
-2025-12-03 18:51:00 INFO Today's Deal filter applied
-2025-12-03 18:51:10 INFO Applying Category filter
-2025-12-03 18:51:10 INFO Waiting for Category filter button to be clickable
-2025-12-03 18:51:10 INFO Accessing BROWSE_CATEGORY button
-2025-12-03 18:51:10 INFO Category filter applied
-2025-12-03 18:51:20 INFO Applying Cuisine filter
-2025-12-03 18:51:20 INFO Waiting for Cuisine filter button to be clickable
-2025-12-03 18:51:20 INFO Accessing BROWSE_CUISINE button
-2025-12-03 18:51:20 INFO Cuisine filter applied
-2025-12-03 18:51:30 INFO Sorting by popularity
-2025-12-03 18:51:30 INFO Sorting by Popularity
-2025-12-03 18:51:30 INFO Accessing SORT_POPULARITY dropdown
-2025-12-03 18:51:30 INFO Accessing SORT_POPULARITY dropdown
-2025-12-03 18:51:30 INFO Sorted by popularity
-2025-12-03 18:51:35 INFO Sorting by price
-2025-12-03 18:51:35 INFO Sorting by Price
-2025-12-03 18:51:35 INFO Accessing SORT_PRICE dropdown
-2025-12-03 18:51:36 INFO Accessing SORT_PRICE dropdown
-2025-12-03 18:51:36 INFO Sorted by price
-2025-12-03 18:51:41 INFO Opening all restaurants
-2025-12-03 18:51:41 INFO Opening All Restaurants
-2025-12-03 18:51:41 INFO Accessing ALL_RESTAURANT button
-2025-12-03 18:51:41 INFO All Restaurants opened
-2025-12-03 18:51:46 INFO Resetting all filters
-2025-12-03 18:51:46 INFO Resetting all filters
-2025-12-03 18:51:46 INFO Accessing RESET button
-2025-12-03 18:51:46 INFO Filters reset successfully
-2025-12-03 18:51:56 INFO Filter Test Completed Successfully
-2025-12-03 18:51:56 INFO Closing Chrome browser.
-2025-12-03 18:52:01 INFO Chrome launched successfully.
-2025-12-03 18:52:01 INFO Starting Get Location Test
-2025-12-03 18:52:01 INFO Opening URL: https://www.bhojdeals.com/
-2025-12-03 18:52:06 INFO Closing Chrome browser.
-2025-12-03 18:52:10 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9F2E8CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fb27fc19c8f41f35ebbaa6822c6a744c
+2025-12-04 10:15:42 INFO Loading AddToCartLocators
+2025-12-04 10:15:42 INFO GetLocationLocators loaded
+2025-12-04 10:15:42 INFO SearchLocators loaded
+2025-12-04 10:15:42 INFO ViewMenuLocators loaded
+2025-12-04 10:15:42 INFO CheckoutLocators loaded
+2025-12-04 10:15:42 INFO FilterLocators loaded
+2025-12-04 10:15:42 INFO LoginSecurityLocators loaded
+2025-12-04 10:15:42 INFO Loading SQL injection payloads
+2025-12-04 10:15:44 INFO Chrome launched successfully.
+2025-12-04 10:15:44 INFO Starting Add to Cart Test
+2025-12-04 10:15:44 INFO Opening base URL: https://www.bhojdeals.com/
+2025-12-04 10:15:51 INFO Driver initialized
+2025-12-04 10:15:51 INFO LoginPage initialized
+2025-12-04 10:15:51 INFO Attempting login with email: chelseasudip430@gmail.com
+2025-12-04 10:15:51 INFO Starting login process
+2025-12-04 10:15:53 INFO Trying to click navbar login button
+2025-12-04 10:15:55 INFO Clearing email field
+2025-12-04 10:15:55 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:15:56 INFO Clearing password field
+2025-12-04 10:15:56 INFO Entering password
+2025-12-04 10:15:57 INFO Clicking login submit button
+2025-12-04 10:16:00 INFO Login process finished
+2025-12-04 10:16:00 INFO Login successful
+2025-12-04 10:16:03 INFO Going to Get Location page
+2025-12-04 10:16:03 INFO GetLocationPage initialized
+2025-12-04 10:16:03 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:16:03 INFO Clicking main Get Location button
+2025-12-04 10:16:04 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:16:04 INFO Locating Bhaktapur location option
+2025-12-04 10:16:04 INFO Location successfully selected
+2025-12-04 10:16:07 INFO Performing search for burger
+2025-12-04 10:16:07 INFO SearchPage initialized
+2025-12-04 10:16:07 INFO Starting search for: burger
+2025-12-04 10:16:07 INFO Waiting for SEARCH_BOX to be clickable
+2025-12-04 10:16:07 INFO Waiting for SEARCH_BOX and clearing it
+2025-12-04 10:16:07 INFO Typing search query: burger
+2025-12-04 10:16:07 INFO Waiting for search suggestions to appear
+2025-12-04 10:16:08 INFO Looking for expected suggestion: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:16:08 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:16:08 INFO Search operation completed successfully
+2025-12-04 10:16:11 INFO Opening menu page
+2025-12-04 10:16:11 INFO ViewMenuPage initialized
+2025-12-04 10:16:11 INFO Clicking restaurant to open menu
+2025-12-04 10:16:11 INFO Accessing restaurant selection element
+2025-12-04 10:16:13 INFO Starting smooth scroll down
+2025-12-04 10:16:17 INFO Completed scrolling down; now scrolling back up
+2025-12-04 10:16:21 INFO Scrolling up completed
+2025-12-04 10:16:22 INFO Performing small final scroll
+2025-12-04 10:16:23 INFO View Menu scroll interactions completed
+2025-12-04 10:16:28 INFO Adding items to car
+2025-12-04 10:16:28 INFO AddToCartPage initialized
+2025-12-04 10:16:28 INFO Waiting for first item to be clickable
+2025-12-04 10:16:28 INFO Clicking first item
+2025-12-04 10:16:28 INFO Waiting for second item to be clickable
+2025-12-04 10:16:28 INFO Clicking second item
+2025-12-04 10:16:28 INFO Increasing item quantity
+2025-12-04 10:16:30 INFO Reducing item quantity
+2025-12-04 10:16:31 INFO Add to Cart actions completed
+2025-12-04 10:16:31 INFO Add to Cart process complete
+2025-12-04 10:16:36 INFO Closing Chrome browser.
+2025-12-04 10:16:40 INFO Chrome launched successfully.
+2025-12-04 10:16:40 INFO  Starting Checkout Test
+2025-12-04 10:16:40 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:16:45 INFO Driver initialized
+2025-12-04 10:16:48 INFO LoginPage initialized
+2025-12-04 10:16:48 INFO Logging in with: chelseasudip430@gmail.com
+2025-12-04 10:16:48 INFO Starting login process
+2025-12-04 10:16:50 INFO Trying to click navbar login button
+2025-12-04 10:16:52 INFO Clearing email field
+2025-12-04 10:16:52 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:16:54 INFO Clearing password field
+2025-12-04 10:16:54 INFO Entering password
+2025-12-04 10:16:55 INFO Clicking login submit button
+2025-12-04 10:16:58 INFO Login process finished
+2025-12-04 10:16:58 INFO Login successful
+2025-12-04 10:17:01 INFO GetLocationPage initialized
+2025-12-04 10:17:01 INFO Selecting location
+2025-12-04 10:17:01 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:17:01 INFO Clicking main Get Location button
+2025-12-04 10:17:01 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:17:01 INFO Locating Bhaktapur location option
+2025-12-04 10:17:01 INFO Location successfully selected
+2025-12-04 10:17:04 INFO Location selected
+2025-12-04 10:17:04 INFO starting filtering process
+2025-12-04 10:17:04 INFO FilterPage initialized
+2025-12-04 10:17:04 INFO Waiting for Today's Deal filter to be clickable
+2025-12-04 10:17:04 INFO Accessing TODAY_DEAL button
+2025-12-04 10:17:04 INFO Today's Deal filter applied
+2025-12-04 10:17:07 INFO Waiting for Category filter button to be clickable
+2025-12-04 10:17:07 INFO Accessing BROWSE_CATEGORY button
+2025-12-04 10:17:07 INFO Category filter applied
+2025-12-04 10:17:10 INFO Waiting for Cuisine filter button to be clickable
+2025-12-04 10:17:10 INFO Accessing BROWSE_CUISINE button
+2025-12-04 10:17:11 INFO Cuisine filter applied
+2025-12-04 10:17:14 INFO Sorting by Popularity
+2025-12-04 10:17:14 INFO Accessing SORT_POPULARITY dropdown
+2025-12-04 10:17:14 INFO Accessing SORT_POPULARITY dropdown
+2025-12-04 10:17:14 INFO Sorted by popularity
+2025-12-04 10:17:17 INFO Sorting by Price
+2025-12-04 10:17:17 INFO Accessing SORT_PRICE dropdown
+2025-12-04 10:17:17 INFO Accessing SORT_PRICE dropdown
+2025-12-04 10:17:17 INFO Sorted by price
+2025-12-04 10:17:20 INFO Opening All Restaurants
+2025-12-04 10:17:20 INFO Accessing ALL_RESTAURANT button
+2025-12-04 10:17:20 INFO All Restaurants opened
+2025-12-04 10:17:23 INFO Resetting all filters
+2025-12-04 10:17:23 INFO Accessing RESET button
+2025-12-04 10:17:23 INFO Filters reset successfully
+2025-12-04 10:17:26 INFO Filtering process completed
+2025-12-04 10:17:26 INFO Searching for product: amore pizza
+2025-12-04 10:17:26 INFO SearchPage initialized
+2025-12-04 10:17:26 INFO Starting search for: Amore pizza
+2025-12-04 10:17:26 INFO Waiting for SEARCH_BOX to be clickable
+2025-12-04 10:17:26 INFO Waiting for SEARCH_BOX and clearing it
+2025-12-04 10:17:26 INFO Typing search query: Amore pizza
+2025-12-04 10:17:26 INFO Waiting for search suggestions to appear
+2025-12-04 10:17:27 INFO Looking for expected suggestion: Amore Pizza (Koteshwor)
+2025-12-04 10:17:27 INFO Clicked expected result: Amore Pizza (Koteshwor)
+2025-12-04 10:17:27 INFO Search operation completed successfully
+2025-12-04 10:17:30 INFO Search complete
+2025-12-04 10:17:30 INFO Opening menu page
+2025-12-04 10:17:30 INFO ViewMenuPage initialized
+2025-12-04 10:17:30 INFO Clicking restaurant to open menu
+2025-12-04 10:17:30 INFO Accessing restaurant selection element
+2025-12-04 10:17:32 INFO Starting smooth scroll down
+2025-12-04 10:17:36 INFO Completed scrolling down; now scrolling back up
+2025-12-04 10:17:40 INFO Scrolling up completed
+2025-12-04 10:17:41 INFO Performing small final scroll
+2025-12-04 10:17:42 INFO View Menu scroll interactions completed
+2025-12-04 10:17:45 INFO Adding items to cart
+2025-12-04 10:17:45 INFO AddToCartPage initialized
+2025-12-04 10:17:45 INFO Waiting for first item to be clickable
+2025-12-04 10:17:45 INFO Clicking first item
+2025-12-04 10:17:45 INFO Waiting for second item to be clickable
+2025-12-04 10:17:45 INFO Clicking second item
+2025-12-04 10:17:45 INFO Increasing item quantity
+2025-12-04 10:17:46 INFO Reducing item quantity
+2025-12-04 10:17:46 INFO Add to Cart actions completed
+2025-12-04 10:17:49 INFO Proceeding to checkout
+2025-12-04 10:17:49 INFO CheckoutPage initialized
+2025-12-04 10:17:49 INFO Clicking checkout button
+2025-12-04 10:17:49 INFO Accessing CHECKOUT_BUTTON
+2025-12-04 10:17:55 INFO Checkout button clicked
+2025-12-04 10:17:55 INFO Clicking Add Delivery Address button
+2025-12-04 10:17:55 INFO Accessing ADD_DELIVERY_BUTTON
+2025-12-04 10:17:55 INFO Add delivery button clicked
+2025-12-04 10:17:55 INFO Adding delivery address
+2025-12-04 10:17:55 INFO Accessing DELIVERY_ADDRESS
+2025-12-04 10:18:00 INFO Delivery address entered: Budhanilkantha,Chapali
+2025-12-04 10:18:05 INFO Closing address popup
+2025-12-04 10:18:05 INFO Accessing CLOSE_ADDRESS_POPUP
+2025-12-04 10:18:10 INFO Selecting call confirmation option
+2025-12-04 10:18:10 INFO Confirmation call checked
+2025-12-04 10:18:16 INFO Setting delivery day
+2025-12-04 10:18:16 INFO Accessing DELIVERY_DAY
+2025-12-04 10:18:21 INFO Delivery day set to Tomorrow
+2025-12-04 10:18:27 INFO Adding note to driver
+2025-12-04 10:18:27 INFO Driver note added: JUST TESTING
+2025-12-04 10:18:27 INFO Selecting payment method
+2025-12-04 10:18:27 INFO Accessing PAYMENT_METHOD
+2025-12-04 10:18:28 INFO Payment method selected
+2025-12-04 10:18:28 INFO Checkout completed successfully
+2025-12-04 10:18:31 INFO Closing Chrome browser.
+2025-12-04 10:18:35 INFO Chrome launched successfully.
+2025-12-04 10:18:35 INFO Starting Edit Profile Test
+2025-12-04 10:18:35 INFO Opening Bhojdeals website
+2025-12-04 10:18:35 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:18:43 INFO LoginPage initialized
+2025-12-04 10:18:43 INFO LoginPage initialized for profile edit
+2025-12-04 10:18:43 INFO Logging in with email: chelseasudip430@gmail.com
+2025-12-04 10:18:43 INFO Starting login process
+2025-12-04 10:18:45 INFO Trying to click navbar login button
+2025-12-04 10:18:47 INFO Clearing email field
+2025-12-04 10:18:47 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:18:49 INFO Clearing password field
+2025-12-04 10:18:49 INFO Entering password
+2025-12-04 10:18:50 INFO Clicking login submit button
+2025-12-04 10:18:53 INFO Login process finished
+2025-12-04 10:18:57 INFO Opening My Account page
+2025-12-04 10:18:57 INFO Opening My Account page
+2025-12-04 10:19:02 INFO Opening Edit Profile page
+2025-12-04 10:19:02 INFO Opening Edit Profile page
+2025-12-04 10:19:14 INFO Editing username to 'Sudip Bhandari'
+2025-12-04 10:19:14 INFO Editing profile username to: Sudip Bhandari
+2025-12-04 10:19:45 INFO Submitting updated profile
+2025-12-04 10:19:45 INFO Submitting profile changes
+2025-12-04 10:19:50 INFO Verifying updated username
+2025-12-04 10:19:50 INFO Profile name updated successfully: Sudip Bhandari
+2025-12-04 10:19:50 INFO Closing Chrome browser.
+2025-12-04 10:19:54 INFO Chrome launched successfully.
+2025-12-04 10:19:54 INFO  Starting Filter Test
+2025-12-04 10:19:54 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:19:59 INFO LoginPage initialized
+2025-12-04 10:19:59 INFO Logging in with email: chelseasudip430@gmail.com
+2025-12-04 10:19:59 INFO Starting login process
+2025-12-04 10:20:01 INFO Trying to click navbar login button
+2025-12-04 10:20:03 INFO Clearing email field
+2025-12-04 10:20:03 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:20:05 INFO Clearing password field
+2025-12-04 10:20:05 INFO Entering password
+2025-12-04 10:20:06 INFO Clicking login submit button
+2025-12-04 10:20:09 INFO Login process finished
+2025-12-04 10:20:09 INFO Selecting location
+2025-12-04 10:20:09 INFO GetLocationPage initialized
+2025-12-04 10:20:09 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:20:09 INFO Clicking main Get Location button
+2025-12-04 10:20:09 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:20:09 INFO Locating Bhaktapur location option
+2025-12-04 10:20:09 INFO Location successfully selected
+2025-12-04 10:20:09 INFO Initializing FilterPage
+2025-12-04 10:20:09 INFO FilterPage initialized
+2025-12-04 10:20:19 INFO Applying Today's Deal filter
+2025-12-04 10:20:19 INFO Waiting for Today's Deal filter to be clickable
+2025-12-04 10:20:19 INFO Accessing TODAY_DEAL button
+2025-12-04 10:20:19 INFO Today's Deal filter applied
+2025-12-04 10:20:29 INFO Applying Category filter
+2025-12-04 10:20:29 INFO Waiting for Category filter button to be clickable
+2025-12-04 10:20:29 INFO Accessing BROWSE_CATEGORY button
+2025-12-04 10:20:30 INFO Category filter applied
+2025-12-04 10:20:40 INFO Applying Cuisine filter
+2025-12-04 10:20:40 INFO Waiting for Cuisine filter button to be clickable
+2025-12-04 10:20:40 INFO Accessing BROWSE_CUISINE button
+2025-12-04 10:20:40 INFO Cuisine filter applied
+2025-12-04 10:20:50 INFO Sorting by popularity
+2025-12-04 10:20:50 INFO Sorting by Popularity
+2025-12-04 10:20:50 INFO Accessing SORT_POPULARITY dropdown
+2025-12-04 10:20:50 INFO Accessing SORT_POPULARITY dropdown
+2025-12-04 10:20:50 INFO Sorted by popularity
+2025-12-04 10:20:55 INFO Sorting by price
+2025-12-04 10:20:55 INFO Sorting by Price
+2025-12-04 10:20:55 INFO Accessing SORT_PRICE dropdown
+2025-12-04 10:20:55 INFO Accessing SORT_PRICE dropdown
+2025-12-04 10:20:55 INFO Sorted by price
+2025-12-04 10:21:00 INFO Opening all restaurants
+2025-12-04 10:21:00 INFO Opening All Restaurants
+2025-12-04 10:21:00 INFO Accessing ALL_RESTAURANT button
+2025-12-04 10:21:00 INFO All Restaurants opened
+2025-12-04 10:21:05 INFO Resetting all filters
+2025-12-04 10:21:05 INFO Resetting all filters
+2025-12-04 10:21:05 INFO Accessing RESET button
+2025-12-04 10:21:05 INFO Filters reset successfully
+2025-12-04 10:21:15 INFO Filter Test Completed Successfully
+2025-12-04 10:21:15 INFO Closing Chrome browser.
+2025-12-04 10:21:19 INFO Chrome launched successfully.
+2025-12-04 10:21:19 INFO Starting Get Location Test
+2025-12-04 10:21:19 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:21:25 INFO Initializing LoginPage
+2025-12-04 10:21:25 INFO LoginPage initialized
+2025-12-04 10:21:25 INFO Email entered: chelseasudip430@gmail.com
+2025-12-04 10:21:25 INFO Password entered
+2025-12-04 10:21:25 INFO Starting login process
+2025-12-04 10:21:27 INFO Trying to click navbar login button
+2025-12-04 10:21:29 INFO Clearing email field
+2025-12-04 10:21:29 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:21:30 INFO Clearing password field
+2025-12-04 10:21:30 INFO Entering password
+2025-12-04 10:21:31 INFO Clicking login submit button
+2025-12-04 10:21:34 INFO Login process finished
+2025-12-04 10:21:37 INFO Initializing GetLocationPage
+2025-12-04 10:21:37 INFO GetLocationPage initialized
+2025-12-04 10:21:37 INFO Selecting location
+2025-12-04 10:21:37 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:21:37 INFO Clicking main Get Location button
+2025-12-04 10:21:37 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:21:37 INFO Locating Bhaktapur location option
+2025-12-04 10:21:37 INFO Location successfully selected
+2025-12-04 10:21:40 INFO Get Location Test Completed
+2025-12-04 10:21:40 INFO Closing Chrome browser.
+2025-12-04 10:21:45 INFO Chrome launched successfully.
+2025-12-04 10:21:45 INFO Starting Invalid Login Test
+2025-12-04 10:21:45 INFO Opening Bhojdeals URL
+2025-12-04 10:21:45 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:21:52 INFO Initializing LoginPage
+2025-12-04 10:21:52 INFO LoginPage initialized
+2025-12-04 10:21:52 INFO Attempting login with invalid credentials: wrong@mail.com
+2025-12-04 10:21:52 INFO Starting login process
+2025-12-04 10:21:54 INFO Trying to click navbar login button
+2025-12-04 10:21:56 INFO Clearing email field
+2025-12-04 10:21:56 INFO Entering email: wrong@mail.com
+2025-12-04 10:21:57 INFO Clearing password field
+2025-12-04 10:21:57 INFO Entering password
+2025-12-04 10:21:58 INFO Clicking login submit button
+2025-12-04 10:22:01 INFO Login process finished
+2025-12-04 10:22:01 INFO Fetching error message after invalid login attempt
+2025-12-04 10:22:01 INFO Checking for login error message
+2025-12-04 10:22:01 INFO Error message displayed: ×
+Either your email address does not exist or your password is incorrect. Please re-enter your email address and password.
+2025-12-04 10:22:01 INFO  Invalid Login Test Completed 
+2025-12-04 10:22:01 INFO Closing Chrome browser.
+2025-12-04 10:22:05 INFO Chrome launched successfully.
+2025-12-04 10:22:05 INFO Starting login test
+2025-12-04 10:22:05 INFO Opening URL https://www.bhojdeals.com/
+2025-12-04 10:22:05 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:22:15 INFO LoginPage initialized
+2025-12-04 10:22:15 INFO LoginPage object initialized
+2025-12-04 10:22:15 INFO Attempting login with email=chelseasudip430@gmail.com
+2025-12-04 10:22:15 INFO Starting login process
+2025-12-04 10:22:17 INFO Trying to click navbar login button
+2025-12-04 10:22:19 INFO Clearing email field
+2025-12-04 10:22:19 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:22:20 INFO Clearing password field
+2025-12-04 10:22:20 INFO Entering password
+2025-12-04 10:22:21 INFO Clicking login submit button
+2025-12-04 10:22:25 INFO Login process finished
+2025-12-04 10:22:25 INFO Login test completed
+2025-12-04 10:22:25 INFO Closing Chrome browser.
+2025-12-04 10:22:29 INFO Chrome launched successfully.
+2025-12-04 10:22:29 INFO  Starting SQL Injection Security Test
+2025-12-04 10:22:35 INFO LoginSecurityPage initialized
+2025-12-04 10:22:35 INFO  Starting SQL Injection Test 
+2025-12-04 10:22:35 INFO Testing SQL payload: ' OR '1'='1
+2025-12-04 10:22:35 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR '1'='1
+2025-12-04 10:22:35 INFO LoginPage initialized
+2025-12-04 10:22:35 INFO Starting login process
+2025-12-04 10:22:37 INFO Trying to click navbar login button
+2025-12-04 10:22:39 INFO Clearing email field
+2025-12-04 10:22:40 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:22:41 INFO Clearing password field
+2025-12-04 10:22:41 INFO Entering password
+2025-12-04 10:22:42 INFO Clicking login submit button
+2025-12-04 10:22:45 INFO Login process finished
+2025-12-04 10:22:47 INFO Login attempt completed
+2025-12-04 10:22:57 WARNING No error visible, but login prevented (still safe)
+2025-12-04 10:22:57 INFO Testing SQL payload: ' OR 1=1 --
+2025-12-04 10:22:57 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR 1=1 --
+2025-12-04 10:22:57 INFO LoginPage initialized
+2025-12-04 10:22:57 INFO Starting login process
+2025-12-04 10:22:59 INFO Trying to click navbar login button
+2025-12-04 10:22:59 WARNING Navbar login button not clickable or already on login page
+2025-12-04 10:22:59 INFO Clearing email field
+2025-12-04 10:22:59 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:23:01 INFO Clearing password field
+2025-12-04 10:23:01 INFO Entering password
+2025-12-04 10:23:02 INFO Clicking login submit button
+2025-12-04 10:23:05 INFO Login process finished
+2025-12-04 10:23:07 INFO Login attempt completed
+2025-12-04 10:23:17 WARNING No error visible, but login prevented (still safe)
+2025-12-04 10:23:17 INFO Testing SQL payload: '; DROP TABLE users; --
+2025-12-04 10:23:17 INFO Attempting login with email=chelseasudip430@gmail.com, password='; DROP TABLE users; --
+2025-12-04 10:23:17 INFO LoginPage initialized
+2025-12-04 10:23:17 INFO Starting login process
+2025-12-04 10:23:19 INFO Trying to click navbar login button
+2025-12-04 10:23:19 WARNING Navbar login button not clickable or already on login page
+2025-12-04 10:23:19 INFO Clearing email field
+2025-12-04 10:23:19 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:23:20 INFO Clearing password field
+2025-12-04 10:23:20 INFO Entering password
+2025-12-04 10:23:22 INFO Clicking login submit button
+2025-12-04 10:23:25 INFO Login process finished
+2025-12-04 10:23:27 INFO Login attempt completed
+2025-12-04 10:23:37 WARNING No error visible, but login prevented (still safe)
+2025-12-04 10:23:37 INFO Testing SQL payload: ' OR ''='
+2025-12-04 10:23:37 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR ''='
+2025-12-04 10:23:37 INFO LoginPage initialized
+2025-12-04 10:23:37 INFO Starting login process
+2025-12-04 10:23:39 INFO Trying to click navbar login button
+2025-12-04 10:23:39 WARNING Navbar login button not clickable or already on login page
+2025-12-04 10:23:39 INFO Clearing email field
+2025-12-04 10:23:39 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:23:40 INFO Clearing password field
+2025-12-04 10:23:40 INFO Entering password
+2025-12-04 10:23:41 INFO Clicking login submit button
+2025-12-04 10:23:44 INFO Login process finished
+2025-12-04 10:23:46 INFO Login attempt completed
+2025-12-04 10:23:57 WARNING No error visible, but login prevented (still safe)
+2025-12-04 10:23:57 INFO Testing SQL payload: " OR "" = "
+2025-12-04 10:23:57 INFO Attempting login with email=chelseasudip430@gmail.com, password=" OR "" = "
+2025-12-04 10:23:57 INFO LoginPage initialized
+2025-12-04 10:23:57 INFO Starting login process
+2025-12-04 10:23:59 INFO Trying to click navbar login button
+2025-12-04 10:23:59 WARNING Navbar login button not clickable or already on login page
+2025-12-04 10:23:59 INFO Clearing email field
+2025-12-04 10:23:59 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:24:00 INFO Clearing password field
+2025-12-04 10:24:00 INFO Entering password
+2025-12-04 10:24:01 INFO Clicking login submit button
+2025-12-04 10:24:04 INFO Login process finished
+2025-12-04 10:24:06 INFO Login attempt completed
+2025-12-04 10:24:16 WARNING No error visible, but login prevented (still safe)
+2025-12-04 10:24:16 INFO  SQL Injection Test Passed 
+2025-12-04 10:24:16 INFO  SQL Injection Test Completed Successfully 
+2025-12-04 10:24:16 INFO Closing Chrome browser.
+2025-12-04 10:24:21 INFO Chrome launched successfully.
+2025-12-04 10:24:21 INFO  Starting Logout Test
+2025-12-04 10:24:21 INFO Opening Bhojdeals homepage
+2025-12-04 10:24:21 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:24:29 INFO Initializing LoginPage
+2025-12-04 10:24:29 INFO LoginPage initialized
+2025-12-04 10:24:29 INFO Logging in with email: chelseasudip430@gmail.com
+2025-12-04 10:24:29 INFO Starting login process
+2025-12-04 10:24:31 INFO Trying to click navbar login button
+2025-12-04 10:24:33 INFO Clearing email field
+2025-12-04 10:24:33 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:24:34 INFO Clearing password field
+2025-12-04 10:24:34 INFO Entering password
+2025-12-04 10:24:36 INFO Clicking login submit button
+2025-12-04 10:24:39 INFO Login process finished
+2025-12-04 10:24:42 INFO Login successful
+2025-12-04 10:24:42 INFO Attempting logout
+2025-12-04 10:24:42 INFO Attempting logout
+2025-12-04 10:24:46 INFO Logout completed
+2025-12-04 10:24:48 INFO Logout action executed
+2025-12-04 10:24:48 INFO Validating logout state
+2025-12-04 10:24:48 INFO Logout successful!
+2025-12-04 10:24:48 INFO  Logout Test Completed Successfully
+2025-12-04 10:24:48 INFO Closing Chrome browser.
+2025-12-04 10:24:52 INFO Chrome launched successfully.
+2025-12-04 10:24:57 INFO LoginPage initialized
+2025-12-04 10:24:57 INFO Starting login process
+2025-12-04 10:24:59 INFO Trying to click navbar login button
+2025-12-04 10:25:01 INFO Clearing email field
+2025-12-04 10:25:01 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:25:03 INFO Clearing password field
+2025-12-04 10:25:03 INFO Entering password
+2025-12-04 10:25:04 INFO Clicking login submit button
+2025-12-04 10:25:07 INFO Login process finished
+2025-12-04 10:25:07 INFO GetLocationPage initialized
+2025-12-04 10:25:07 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:25:07 INFO Clicking main Get Location button
+2025-12-04 10:25:07 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:25:07 INFO Locating Bhaktapur location option
+2025-12-04 10:25:08 INFO Location successfully selected
+2025-12-04 10:25:08 INFO SearchPage initialized
+2025-12-04 10:25:08 INFO Starting search for: burger
+2025-12-04 10:25:08 INFO Waiting for SEARCH_BOX to be clickable
+2025-12-04 10:25:08 INFO Waiting for SEARCH_BOX and clearing it
+2025-12-04 10:25:08 INFO Typing search query: burger
+2025-12-04 10:25:08 INFO Waiting for search suggestions to appear
+2025-12-04 10:25:09 INFO Looking for expected suggestion: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:25:09 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:25:09 INFO Search operation completed successfully
+2025-12-04 10:25:12 INFO Closing Chrome browser.
+2025-12-04 10:25:16 INFO Chrome launched successfully.
+2025-12-04 10:25:16 INFO Starting random search stress test
+2025-12-04 10:25:16 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:25:22 INFO LoginPage initialized
+2025-12-04 10:25:22 INFO Starting login process
+2025-12-04 10:25:24 INFO Trying to click navbar login button
+2025-12-04 10:25:26 INFO Clearing email field
+2025-12-04 10:25:27 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:25:28 INFO Clearing password field
+2025-12-04 10:25:28 INFO Entering password
+2025-12-04 10:25:29 INFO Clicking login submit button
+2025-12-04 10:25:32 INFO Login process finished
+2025-12-04 10:25:33 INFO GetLocationPage initialized
+2025-12-04 10:25:33 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:25:33 INFO Clicking main Get Location button
+2025-12-04 10:25:33 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:25:33 INFO Locating Bhaktapur location option
+2025-12-04 10:25:33 INFO Location successfully selected
+2025-12-04 10:25:34 INFO SearchStressWordsPage initialized
+2025-12-04 10:25:34 INFO Running stress test using 35 predefined words
+2025-12-04 10:25:34 INFO Typed: pizza
+2025-12-04 10:25:37 INFO Typed: burger
+2025-12-04 10:25:39 INFO Typed: momo
+2025-12-04 10:25:41 INFO Typed: coffee
+2025-12-04 10:25:43 INFO Typed: tea
+2025-12-04 10:25:45 INFO Typed: chowmein
+2025-12-04 10:25:47 INFO Typed: biryani
+2025-12-04 10:25:49 INFO Typed: rice
+2025-12-04 10:25:51 INFO Typed: pasta
+2025-12-04 10:25:54 INFO Typed: noodles
+2025-12-04 10:25:56 INFO Typed: sandwich
+2025-12-04 10:25:58 INFO Typed: fried chicken
+2025-12-04 10:26:00 INFO Typed: thukpa
+2025-12-04 10:26:02 INFO Typed: thali
+2025-12-04 10:26:04 INFO Typed: wrap
+2025-12-04 10:26:06 INFO Typed: sushi
+2025-12-04 10:26:09 INFO Typed: cake
+2025-12-04 10:26:11 INFO Typed: cookies
+2025-12-04 10:26:13 INFO Typed: juice
+2025-12-04 10:26:15 INFO Typed: smoothie
+2025-12-04 10:26:17 INFO Typed: salad
+2025-12-04 10:26:19 INFO Typed: pancake
+2025-12-04 10:26:21 INFO Typed: steak
+2025-12-04 10:26:23 INFO Typed: taco
+2025-12-04 10:26:36 INFO Typed: sausage
+2025-12-04 10:26:38 INFO Typed: fish
+2025-12-04 10:26:40 INFO Typed: shrimp
+2025-12-04 10:26:42 INFO Typed: roll
+2025-12-04 10:26:44 INFO Typed: dumpling
+2025-12-04 10:26:47 INFO Typed: hotdog
+2025-12-04 10:26:49 INFO Typed: icecream
+2025-12-04 10:26:51 INFO Typed: lassi
+2025-12-04 10:26:53 INFO Typed: donut
+2025-12-04 10:27:05 INFO Typed: shawarma
+2025-12-04 10:27:07 INFO Typed: samosa
+2025-12-04 10:27:09 INFO Suggestions appeared for 33/35 random inputs
+2025-12-04 10:27:09 INFO Random word stress test completed successfully
+2025-12-04 10:27:09 INFO Closing Chrome browser.
+2025-12-04 10:27:14 INFO Chrome launched successfully.
+2025-12-04 10:27:14 INFO  Starting View Menu Test 
+2025-12-04 10:27:14 INFO Opening URL: https://www.bhojdeals.com/
+2025-12-04 10:27:20 INFO Initializing LoginPage
+2025-12-04 10:27:20 INFO LoginPage initialized
+2025-12-04 10:27:20 INFO Logging in with: chelseasudip430@gmail.com
+2025-12-04 10:27:20 INFO Starting login process
+2025-12-04 10:27:22 INFO Trying to click navbar login button
+2025-12-04 10:27:24 INFO Clearing email field
+2025-12-04 10:27:24 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 10:27:25 INFO Clearing password field
+2025-12-04 10:27:25 INFO Entering password
+2025-12-04 10:27:26 INFO Clicking login submit button
+2025-12-04 10:27:29 INFO Login process finished
+2025-12-04 10:27:29 INFO Selecting delivery location
+2025-12-04 10:27:29 INFO GetLocationPage initialized
+2025-12-04 10:27:29 INFO Waiting for 'Get Food & Grocery delivered' section
+2025-12-04 10:27:29 INFO Clicking main Get Location button
+2025-12-04 10:27:29 INFO Selecting specific location (Bhaktapur)
+2025-12-04 10:27:29 INFO Locating Bhaktapur location option
+2025-12-04 10:27:30 INFO Location successfully selected
+2025-12-04 10:27:35 INFO Searching for menu item: burger
+2025-12-04 10:27:35 INFO SearchPage initialized
+2025-12-04 10:27:35 INFO Starting search for: burger
+2025-12-04 10:27:35 INFO Waiting for SEARCH_BOX to be clickable
+2025-12-04 10:27:35 INFO Waiting for SEARCH_BOX and clearing it
+2025-12-04 10:27:35 INFO Typing search query: burger
+2025-12-04 10:27:35 INFO Waiting for search suggestions to appear
+2025-12-04 10:27:35 INFO Looking for expected suggestion: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:27:35 INFO Clicked expected result: The Burger House and Crunchy Fried Chicken (Pepsicola)
+2025-12-04 10:27:35 INFO Search operation completed successfully
+2025-12-04 10:27:45 INFO Opening View Menu Page
+2025-12-04 10:27:45 INFO ViewMenuPage initialized
+2025-12-04 10:27:45 INFO Clicking restaurant to open menu
+2025-12-04 10:27:45 INFO Accessing restaurant selection element
+2025-12-04 10:27:47 INFO Starting smooth scroll down
+2025-12-04 10:27:51 INFO Completed scrolling down; now scrolling back up
+2025-12-04 10:27:55 INFO Scrolling up completed
+2025-12-04 10:27:56 INFO Performing small final scroll
+2025-12-04 10:27:57 INFO View Menu scroll interactions completed
+2025-12-04 10:27:57 INFO View Menu page opened successfully
+2025-12-04 10:28:07 INFO View Menu Test Completed 
+2025-12-04 10:28:07 INFO Closing Chrome browser.

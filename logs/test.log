@@ -1,57 +1,78 @@
-2025-12-03 18:57:45 INFO GetLocationLocators loaded
-2025-12-03 18:57:45 INFO SearchLocators loaded
-2025-12-03 18:57:45 INFO FilterLocators loaded
-2025-12-03 18:57:46 INFO Chrome launched successfully.
-2025-12-03 18:57:46 INFO  Starting Filter Test
-2025-12-03 18:57:46 INFO Opening URL: https://www.bhojdeals.com/
-2025-12-03 18:57:53 INFO LoginPage initialized
-2025-12-03 18:57:53 INFO Logging in with email: chelseasudip430@gmail.com
-2025-12-03 18:57:53 INFO Starting login process
-2025-12-03 18:57:55 INFO Trying to click navbar login button
-2025-12-03 18:57:57 INFO Clearing email field
-2025-12-03 18:57:58 INFO Entering email: chelseasudip430@gmail.com
-2025-12-03 18:57:59 INFO Clearing password field
-2025-12-03 18:57:59 INFO Entering password
-2025-12-03 18:58:00 INFO Clicking login submit button
-2025-12-03 18:58:03 INFO Login process finished
-2025-12-03 18:58:03 INFO Selecting location
-2025-12-03 18:58:03 INFO GetLocationPage initialized
-2025-12-03 18:58:03 INFO Waiting for 'Get Food & Grocery delivered' section
-2025-12-03 18:58:03 INFO Clicking main Get Location button
-2025-12-03 18:58:03 INFO Selecting specific location (Bhaktapur)
-2025-12-03 18:58:03 INFO Locating Bhaktapur location option
-2025-12-03 18:58:03 INFO Location successfully selected
-2025-12-03 18:58:03 INFO Initializing FilterPage
-2025-12-03 18:58:03 INFO FilterPage initialized
-2025-12-03 18:58:13 INFO Applying Today's Deal filter
-2025-12-03 18:58:13 INFO Waiting for Today's Deal filter to be clickable
-2025-12-03 18:58:13 INFO Accessing TODAY_DEAL button
-2025-12-03 18:58:13 INFO Today's Deal filter applied
-2025-12-03 18:58:23 INFO Applying Category filter
-2025-12-03 18:58:23 INFO Waiting for Category filter button to be clickable
-2025-12-03 18:58:23 INFO Accessing BROWSE_CATEGORY button
-2025-12-03 18:58:23 INFO Category filter applied
-2025-12-03 18:58:33 INFO Applying Cuisine filter
-2025-12-03 18:58:33 INFO Waiting for Cuisine filter button to be clickable
-2025-12-03 18:58:33 INFO Accessing BROWSE_CUISINE button
-2025-12-03 18:58:34 INFO Cuisine filter applied
-2025-12-03 18:58:44 INFO Sorting by popularity
-2025-12-03 18:58:44 INFO Sorting by Popularity
-2025-12-03 18:58:44 INFO Accessing SORT_POPULARITY dropdown
-2025-12-03 18:58:44 INFO Accessing SORT_POPULARITY dropdown
-2025-12-03 18:58:44 INFO Sorted by popularity
-2025-12-03 18:58:49 INFO Sorting by price
-2025-12-03 18:58:49 INFO Sorting by Price
-2025-12-03 18:58:49 INFO Accessing SORT_PRICE dropdown
-2025-12-03 18:58:49 INFO Accessing SORT_PRICE dropdown
-2025-12-03 18:58:49 INFO Sorted by price
-2025-12-03 18:58:54 INFO Opening all restaurants
-2025-12-03 18:58:54 INFO Opening All Restaurants
-2025-12-03 18:58:54 INFO Accessing ALL_RESTAURANT button
-2025-12-03 18:58:54 INFO All Restaurants opened
-2025-12-03 18:58:59 INFO Resetting all filters
-2025-12-03 18:58:59 INFO Resetting all filters
-2025-12-03 18:58:59 INFO Accessing RESET button
-2025-12-03 18:58:59 INFO Filters reset successfully
-2025-12-03 18:59:09 INFO Filter Test Completed Successfully
-2025-12-03 18:59:09 INFO Closing Chrome browser.
+2025-12-04 14:43:32 INFO LoginSecurityLocators loaded
+2025-12-04 14:43:32 INFO Loading SQL injection payloads
+2025-12-04 14:43:35 INFO Chrome launched successfully.
+2025-12-04 14:43:35 INFO  Starting SQL Injection Security Test
+2025-12-04 14:43:41 INFO LoginSecurityPage initialized
+2025-12-04 14:43:41 INFO  Starting SQL Injection Test 
+2025-12-04 14:43:41 INFO Testing SQL payload: ' OR '1'='1
+2025-12-04 14:43:41 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR '1'='1
+2025-12-04 14:43:41 INFO LoginPage initialized
+2025-12-04 14:43:41 INFO Starting login process
+2025-12-04 14:43:43 INFO Trying to click navbar login button
+2025-12-04 14:43:46 INFO Clearing email field
+2025-12-04 14:43:46 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 14:43:47 INFO Clearing password field
+2025-12-04 14:43:47 INFO Entering password
+2025-12-04 14:43:48 INFO Clicking login submit button
+2025-12-04 14:43:51 INFO Login process finished
+2025-12-04 14:43:53 INFO Login attempt completed
+2025-12-04 14:44:04 WARNING No error visible, but login prevented (still safe)
+2025-12-04 14:44:04 INFO Testing SQL payload: ' OR 1=1 --
+2025-12-04 14:44:04 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR 1=1 --
+2025-12-04 14:44:04 INFO LoginPage initialized
+2025-12-04 14:44:04 INFO Starting login process
+2025-12-04 14:44:06 INFO Trying to click navbar login button
+2025-12-04 14:44:06 WARNING Navbar login button not clickable or already on login page
+2025-12-04 14:44:06 INFO Clearing email field
+2025-12-04 14:44:06 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 14:44:07 INFO Clearing password field
+2025-12-04 14:44:07 INFO Entering password
+2025-12-04 14:44:09 INFO Clicking login submit button
+2025-12-04 14:44:12 INFO Login process finished
+2025-12-04 14:44:14 INFO Login attempt completed
+2025-12-04 14:44:24 WARNING No error visible, but login prevented (still safe)
+2025-12-04 14:44:24 INFO Testing SQL payload: '; DROP TABLE users; --
+2025-12-04 14:44:24 INFO Attempting login with email=chelseasudip430@gmail.com, password='; DROP TABLE users; --
+2025-12-04 14:44:24 INFO LoginPage initialized
+2025-12-04 14:44:24 INFO Starting login process
+2025-12-04 14:44:26 INFO Trying to click navbar login button
+2025-12-04 14:44:26 WARNING Navbar login button not clickable or already on login page
+2025-12-04 14:44:26 INFO Clearing email field
+2025-12-04 14:44:26 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 14:44:27 INFO Clearing password field
+2025-12-04 14:44:27 INFO Entering password
+2025-12-04 14:44:28 INFO Clicking login submit button
+2025-12-04 14:44:32 INFO Login process finished
+2025-12-04 14:44:34 INFO Login attempt completed
+2025-12-04 14:44:44 WARNING No error visible, but login prevented (still safe)
+2025-12-04 14:44:44 INFO Testing SQL payload: ' OR ''='
+2025-12-04 14:44:44 INFO Attempting login with email=chelseasudip430@gmail.com, password=' OR ''='
+2025-12-04 14:44:44 INFO LoginPage initialized
+2025-12-04 14:44:44 INFO Starting login process
+2025-12-04 14:44:46 INFO Trying to click navbar login button
+2025-12-04 14:44:46 WARNING Navbar login button not clickable or already on login page
+2025-12-04 14:44:46 INFO Clearing email field
+2025-12-04 14:44:46 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 14:44:47 INFO Clearing password field
+2025-12-04 14:44:48 INFO Entering password
+2025-12-04 14:44:49 INFO Clicking login submit button
+2025-12-04 14:44:52 INFO Login process finished
+2025-12-04 14:44:54 INFO Login attempt completed
+2025-12-04 14:45:04 WARNING No error visible, but login prevented (still safe)
+2025-12-04 14:45:04 INFO Testing SQL payload: " OR "" = "
+2025-12-04 14:45:04 INFO Attempting login with email=chelseasudip430@gmail.com, password=" OR "" = "
+2025-12-04 14:45:04 INFO LoginPage initialized
+2025-12-04 14:45:04 INFO Starting login process
+2025-12-04 14:45:06 INFO Trying to click navbar login button
+2025-12-04 14:45:06 WARNING Navbar login button not clickable or already on login page
+2025-12-04 14:45:06 INFO Clearing email field
+2025-12-04 14:45:06 INFO Entering email: chelseasudip430@gmail.com
+2025-12-04 14:45:08 INFO Clearing password field
+2025-12-04 14:45:08 INFO Entering password
+2025-12-04 14:45:09 INFO Clicking login submit button
+2025-12-04 14:45:12 INFO Login process finished
+2025-12-04 14:45:14 INFO Login attempt completed
+2025-12-04 14:45:25 WARNING No error visible, but login prevented (still safe)
+2025-12-04 14:45:25 INFO  SQL Injection Test Passed 
+2025-12-04 14:45:25 INFO  SQL Injection Test Completed Successfully 
+2025-12-04 14:45:25 INFO Closing Chrome browser.
