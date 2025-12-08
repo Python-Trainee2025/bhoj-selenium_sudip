@@ -1,0 +1,39 @@
+rnra yozw hvol ecwu
+
+
+
+using System;
+using System.Net;
+using System.Net.Mail;
+using Microsoft.SqlServer.Dts.Runtime;
+
+public void Main()
+{
+    try
+    {
+        MailMessage mail = new MailMessage();
+        mail.From = new MailAddress("yourgmail@gmail.com");
+        mail.To.Add("recipientemail@gmail.com");
+        mail.Subject = "ETL Notification - Success";
+        mail.Body = "Your SSIS ETL package has completed successfully.";
+
+        SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+        smtp.EnableSsl = true;
+        smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+        // Gmail authentication (App Password)
+        smtp.Credentials = new NetworkCredential(
+            "yourgmail@gmail.com",
+            "YOUR_APP_PASSWORD"   // Replace with the 16-digit app password
+        );
+
+        smtp.Send(mail);
+
+        Dts.TaskResult = (int)ScriptResults.Success;
+    }
+    catch (Exception ex)
+    {
+        Dts.Events.FireError(0, "Script Task", ex.Message, "", 0);
+        Dts.TaskResult = (int)ScriptResults.Failure;
+    }
+}
